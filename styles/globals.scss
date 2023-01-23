@@ -54,8 +54,9 @@ a {
   height: auto;
 }
 
-body {
+body, html {
   overflow-x: hidden;
+  width: 100vw;
 }
 
 button {

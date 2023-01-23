@@ -15,6 +15,7 @@ export default function Home() {
       <Head>
         <title>Zīmola attīstība - Tiem, kas dara</title>
        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="keywords" content="reinards, saulītis, zīmols, branding, brends, attīstība, grafika, dizains, reklāmas, SEO, aģentūra"/>
         <meta name="description" content="Zīmola attīstības speciālists"/>
         <meta name="language" content="LV" />
