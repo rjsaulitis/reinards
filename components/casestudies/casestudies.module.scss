@@ -1,0 +1,42 @@
+.study {
+    width: 50%;
+    // min-height: 400px;
+    background-image: linear-gradient(to left, black, gray);
+    position: relative;
+
+    h3 {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        margin: 0;
+        background-color: black;
+        color: white;
+        padding: 1rem;
+    }
+
+}
+.vdc, .lmg{
+    margin: 0;
+        line-height: 0%;
+        display: block;
+    img{
+        margin: 0;
+        line-height: 0%;
+        height: auto;
+        display: block;
+    }
+}
+
+.studytitle{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .study {
+        width: 100%;
+        // min-height: 400px;
+    }
+}
+

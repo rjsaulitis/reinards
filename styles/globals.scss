@@ -1,0 +1,109 @@
+@import "./tachyons.scss";
+@import "./colors.scss";
+@import "./dbb.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+$font-main: Montserrat;
+$font-accent: Montserrat;
+$font-body: Arial, sans-serif;
+
+.f-accent {
+  font-family: $font-accent;
+}
+
+body {
+  background-color: white;
+  font-family: $font-main;
+}
+
+h1, h2, h3, h4, h5, h6, label{
+  color: $color-text;
+  font-family: $font-main;
+  line-height: 0.9;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  font-family: $font-main;
+  line-height: 0.9;
+  font-weight: normal;
+}
+
+button {
+  font-family: $font-main;
+  text-transform: uppercase;
+}
+
+p, a, span, img {
+  color: $color-text;
+  font-family: $font-main;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-icon {
+  width: 0.8rem;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+// Main container element
+.rscont {
+  display: flex;
+  // justify-content: center;
+  width: 75%;
+  margin: auto;
+  // border: 1px solid red;
+}
+
+.rscont--extended {
+  display: flex;
+  // justify-content: center;
+  width: 80%;
+  margin: auto;
+  // border: 1px solid red;
+}
+
+#bglines {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}
+
+// @media screen and (min-width: 720px) {
+//   body {
+//     width: 70%;
+//     margin: auto;
+//   }
+// }
+
+@media screen and (max-width: 1280px) {
+  .rscont, .rscont--extended {
+    display: flex;
+    // justify-content: center;
+    width: 95%;
+    margin: auto;
+    // border: 1px solid red;
+  }
+}
+
+.hidden {
+  display: none;
+}

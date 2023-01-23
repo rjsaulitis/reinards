@@ -1,0 +1,45 @@
+$color-bg: #f8f8f8;
+$color-text: rgb(5, 5, 5);
+$color-text--accent: #ff0000c6;
+$color-text--accent2: rgb(75, 206, 86);
+
+// Brand colors
+$color-brand: #3ca245;
+// $color-brand--transparent: rgb(65, 199, 76);
+$color-brand--transparent: rgb(235, 61, 61);
+
+$color-pink: #FBF1FF;
+$color-purple: #F3F1FC;
+$color-green: #E1FFF0;
+$color-red: #FFEBEC;
+$color-blue: #E8F5FF;
+$color-gray: #efefef;
+$color-gray2: #EFEFEF;
+$color-gray3:rgb(193, 193, 193);
+
+$color-green--saturated: #94EABE;
+
+
+.c-accent {
+    color: $color-brand--transparent;
+}
+
+.bg-pink {
+    background-color: $color-pink;
+}
+
+.bg-purple {
+    background-color: $color-purple;
+}
+
+.bg-green {
+    background-color: $color-green;
+}
+
+.bg-red {
+    background-color: $color-red;
+}
+
+.bg-blue {
+    background-color: $color-blue;
+}
