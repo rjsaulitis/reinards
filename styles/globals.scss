@@ -56,7 +56,7 @@ a {
 
 body, html {
   overflow-x: hidden;
-  width: 100vw;
+  max-width: 100vw;
 }
 
 button {
@@ -107,4 +107,11 @@ button {
 
 .hidden {
   display: none;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
 }

@@ -15,6 +15,8 @@
 
     box-shadow: 0px 39px 100px rgba(0,0,0,0.14);
 
+    transition-duration: 0.25s;
+
     h2 {
         width: 95%;
         font-weight: normal;
@@ -74,22 +76,23 @@
     background-color: #1050FF;
     // background-image: linear-gradient(20deg, #1050FF, #5db0ff);
     z-index: -1;
-    bottom: -22vh;
+    bottom: -5vh;
+    transition-duration: 0.5s;
 }
 
 @media screen and (max-width: 1400px) {
 
     .deco {
-        bottom: -30vh;
+        bottom: -5vh;
         height: 30vh;
-        width: 60vw;;
+        width: 80vw;;
     }
 }
 
 @media screen and (max-width: 1280px) {
 
     .deco {
-        bottom: -30vh;
+        bottom: -5vh;
         height: 30vh;
         width: 70vw;;
     }
@@ -98,12 +101,29 @@
 @media screen and (max-width: 1024px) {
     .module1, .module2, .module3 {
         margin-right: 0;
+        margin-left: 0;
         margin-bottom: 4.4vw;
     }    
 
     .deco {
-        bottom: -82vh;
+        bottom: -5vh;
         height: 80vh;
-        width: 70vw;;
+        width: 100vw;;
+    }
+}    
+
+@media screen and (max-width: 720px) {
+    .deco {
+        bottom: 0vh;
+        height: 90vh;
+        width: 100vw;;
+    }
+}    
+
+@media screen and (max-width: 480px) {
+    .deco {
+        bottom: 0vh;
+        height: 120vh;
+        width: 100vw;;
     }
 }    

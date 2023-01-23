@@ -3,7 +3,7 @@ import css from "./services.module.scss"
 
 export default function Services() {
     return (
-        <div className="" id="services">
+        <div className="relative" id="services">
           <div className="rscont--extended">
         <div className={css.wrap}>
 

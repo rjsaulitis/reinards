@@ -47,7 +47,7 @@ export default function Home() {
         <Image src={HeaderLines} objectFit="cover" />
       </div>
 
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <HeaderHome></HeaderHome>
       <Services></Services>
 
