@@ -2,10 +2,10 @@ import css from "./casestudies.module.scss"
 import Image from 'next/image'
 import "animate.css"
 
-import Vdc from "../../public/images/mockups/vdc.png"
-import Lmg from "../../public/images/mockups/lmg.png"
-import Realdeal from "../../public/images/mockups/realdeal.png"
-import Chalete from "../../public/images/mockups/chalete.png"
+import Vdc from "../../public/images/mockups/vdc.jpg"
+import Lmg from "../../public/images/mockups/lmg.jpg"
+import Realdeal from "../../public/images/mockups/realdeal.jpg"
+import Chalete from "../../public/images/mockups/chalete.jpg"
 
 export default function CaseStudies() {
     return (
