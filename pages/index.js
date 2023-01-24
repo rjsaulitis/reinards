@@ -6,6 +6,7 @@ import CaseStudies from '../components/casestudies/casestudies'
 import Navbar from '../components/navbar/navbar'
 import HeaderHome from '../components/header/headerhome'
 import Services from '../components/services/services'
+import Benefits from '@/components/benefits/benefits'
 
 import HeaderLines from '../public/images/lines.png'
 
@@ -47,11 +48,11 @@ export default function Home() {
         <Image src={HeaderLines} objectFit="cover" />
       </div>
 
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <HeaderHome></HeaderHome>
       <Services></Services>
-
       <CaseStudies></CaseStudies>
+      <Benefits></Benefits>
       <Footer></Footer>
     </>
   )

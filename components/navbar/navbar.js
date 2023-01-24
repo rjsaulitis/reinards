@@ -20,9 +20,6 @@ export default function Navbar() {
                     </li>
                 </ul>
             </div>
-            <div className={css.cta}>
-                <a href="bezmakasas">Bezmaksas Resursi</a>
-            </div>
       </nav>
     )
 }

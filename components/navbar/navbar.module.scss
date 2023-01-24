@@ -6,7 +6,7 @@
     a {
         font-weight: bold;
         text-decoration: none;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -20,7 +20,7 @@
         list-style: none;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
         width: 100%;
 
         a{
@@ -58,8 +58,8 @@
     // }
 }
 
-@media screen and (max-width: 720px) {
-    #navbar {
-        display: none;
-    }       
-}
+// @media screen and (max-width: 720px) {
+//     #navbar {
+//         display: none;
+//     }       
+// }
