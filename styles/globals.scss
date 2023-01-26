@@ -80,6 +80,14 @@ button {
   // border: 1px solid red;
 }
 
+.rscont--small {
+  display: flex;
+  // justify-content: center;
+  width: 75%;
+  margin: auto;
+  // border: 1px solid red;
+}
+
 #bglines {
   position: absolute;
   z-index: -1;
@@ -100,6 +108,14 @@ button {
     display: flex;
     // justify-content: center;
     width: 95%;
+    margin: auto;
+    // border: 1px solid red;
+  }
+
+  .rscont--small {
+    display: flex;
+    // justify-content: center;
+    width: 88%;
     margin: auto;
     // border: 1px solid red;
   }

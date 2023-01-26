@@ -9,19 +9,19 @@ import Chalete from "../../public/images/mockups/chalete.jpg"
 
 export default function CaseStudies() {
     return (
-        <div id="projects" className="pa4 pt3 pb0 mt5">
+        <div id="projects" className="pa2 pa4-l pt3 pb0 mt5-l">
 
 
         {/* Start */}
         <div className="flex flex-column flex-row-l justify-between mb4-l">
             <div className={css.study}>
                 <div className={css.img}>
-                    <Image src={Realdeal} objectFit="cover" />
+                    <Image alt="Project Photo" src={Realdeal} objectFit="cover" />
                 </div>
             </div>
             <div className={css.study}>
                 <div className={css.img}>
-                    <Image src={Vdc} objectFit="cover" />
+                    <Image alt="Project Photo" src={Vdc} objectFit="cover" />
                 </div>
             </div>
         </div>
@@ -31,12 +31,12 @@ export default function CaseStudies() {
         <div className="flex flex-column flex-row-l justify-between mb4-l">
             <div className={css.study}>
                 <div className={css.img}>
-                    <Image src={Lmg} objectFit="cover" />
+                    <Image alt="Project Photo" src={Lmg} objectFit="cover" />
                 </div>
             </div>
             <div className={css.study}>
                 <div className={css.img}>
-                    <Image src={Chalete} objectFit="cover" />
+                    <Image alt="Project Photo" src={Chalete} objectFit="cover" />
                 </div>
             </div>
         </div>

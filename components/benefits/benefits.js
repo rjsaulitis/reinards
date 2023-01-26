@@ -12,24 +12,24 @@ export default function Benefits() {
                 <div className={css.wrap}>
 
                         <div className={css.module1}>
-                            <div className={css.icon}> <Image src={Benefit1} objectFit="cover" /> </div>
+                            <div className={css.icon}> <Image alt="Chess Horse" src={Benefit1} objectFit="cover" /> </div>
                             <h3>Stratēģija</h3>
                             <p>Izveidosim plānu, kā attīstīt tieši Tava uzņēmuma zīmolu</p>
                         </div>
                         <div className={css.module2}>
-                            <div className={css.icon}> <Image src={Benefit2} objectFit="cover" /> </div>
+                            <div className={css.icon}> <Image alt="Photo Frame" src={Benefit2} objectFit="cover" /> </div>
                             <h3>Identitātes Izstrāde</h3>
                             <p>Izveidosim profesionālu tēlu, kas saista Tavus klientus</p>
                         </div>
                         <div className={css.module3}>
-                            <div className={css.icon}> <Image src={Benefit3} objectFit="cover" /> </div>
+                            <div className={css.icon}> <Image alt="Handshake" src={Benefit3} objectFit="cover" /> </div>
                             <h3>Ilgtermiņa Sadarbība</h3>
-                            <p>Palīdzēsim rast funkcionālus risinājumus klientu piesaistei</p>
+                            <p>Kopā radīsim risinājumus klientu piesaistei</p>
                         </div>
                         <div className={css.module4}>
-                            <div className={css.icon}> <Image src={Benefit4} objectFit="cover" /> </div>
+                            <div className={css.icon}> <Image alt="Text Bubbles" src={Benefit4} objectFit="cover" /> </div>
                             <h3>Konsultācijas</h3>
-                            <p>Atbildēsim uz jebkuru jautājumu un kopā risināsim problēmas</p>
+                            <p>Apspriedīsim un kopā pārvarēsim izaicinājumus</p>
                         </div>
                     </div>
 

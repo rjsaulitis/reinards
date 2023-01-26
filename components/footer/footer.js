@@ -4,7 +4,7 @@ import "animate.css"
 export default function Footer() {
     return (
       <footer id="footer" className={css.footer}>
-        <div className="rscont flex flex-column pv4">
+        <div className="rscont flex flex-column pv2 pv4-l">
           <div className="flex flex-column pv5">
             <h2 className="tc mb4">Negaidi Rītdienu <br/> SĀC TAGAD!</h2>
             <a className={css.cta+" tc b pv3 animate__animated animate__jello"} href="mailto: reinardssaulitis@gmail.com">Pieteikt Projektu</a>

@@ -9,19 +9,19 @@ export default function Services() {
 
                 <div className={css.module1+"  animate__animated animate__slideInUp"}>
                     <span>01</span>
-                    <h2>Izskaties<br/>Profesionāli</h2>
-                    <p>Tava uzņēmuma tēls ir viens no svarīgākajiem elementiem reputācijas veidošanā. Ja līdz šim par zīmola attīstību neesi daudz dzirdējis - visticamāk tas ir viens no taviem vājuma punktiem.</p>
+                    <h2>Grafiskais Dizains</h2>
+                    <p>Profesionāls grafiskais dizains un fotogrāfijas Tevi izceļ konkurentu vidū, palīdz izskatīties profesionāli, komunicē kvalitāti, rada uzticību un piesaista labāk maksājošus klientus.</p>
                 </div>
                 <div className={css.module2+"  animate__animated animate__slideInUp animate__slow"}>
                     <span>02</span>
-                    <h2>Piesaisti pašus <br/> labākos klientus</h2>
-                    <p>Mājaslapa ir tavs digitālais īpašums. Ja tu tam nepievērs uzmanību, tu palaid garām vienreizējas iespējas. Pasaulē, kur viss arvien vairāk kļūst digitāls - tu izmanto iespējas vai atpaliec.</p>
+                    <h2>Digitālais Mārketings</h2>
+                    <p>Mūsdienu digitālās iespējas Tavu uzņēmumu pacels citā līmenī. Tu jebkurā brīdi vari sasniegt un komunicēt ar miljoniem cilvēku visā pasaulē, ja zini, kā. Es varu tev palīdzēt!</p>
                 </div>
                 <div className={css.module3+"  animate__animated animate__slideInUp animate__slower"}>
                     <span>03</span>
-                    <h2>Kļūsti uzticams <br/> un gūsti reputāciju
+                    <h2>Copywriting
                     </h2>
-                    <p>Jebkurš mūsdienās var atrast freelance dizaineri vai programmētāju un īstenot idejas, bet ja neorientējies zīmola attīstībā - diemžēl nesagaidīsi vēlamos rezultātus.</p>
+                    <p>Komunikācija ir pārdošanas atslēga. Copywriting speciālists Tev palīdz komunicēt efektīvi, piemeklējot īstos vārdus, kas rosina darbību un palīdz pārdot vairāk.</p>
                 </div>
             </div>
 
