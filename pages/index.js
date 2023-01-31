@@ -4,11 +4,7 @@ import Image from 'next/image'
 import Footer from '../components/footer/footer'
 import CaseStudies from '../components/casestudies/casestudies'
 import Navbar from '../components/navbar/navbar'
-import HeaderHome from '../components/header/headerhome'
-import Services from '../components/services/services'
-import Benefits from '@/components/benefits/benefits'
-
-import HeaderLines from '../public/images/lines.png'
+import Header from '../components/header/header'
 
 export default function Home() {
   return (
@@ -44,15 +40,9 @@ export default function Home() {
         
       </Head>
 
-      <div id="bglines">
-        <Image src={HeaderLines} objectFit="cover" />
-      </div>
-
       <Navbar></Navbar>
-      <HeaderHome></HeaderHome>
-      <Services></Services>
+      <Header cover="home.jpg" title="Dizains. Bizness. Zīmols." cta="https://forms.gle/qY9EZNgobf9Mws5s6"></Header>
       <CaseStudies></CaseStudies>
-      <Benefits></Benefits>
       <Footer></Footer>
     </>
   )

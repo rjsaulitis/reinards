@@ -1,0 +1,41 @@
+.background {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 0 bottom;
+
+    img {
+        // height: auto;
+        object-fit: cover;
+    }
+}
+
+.tint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    h1 {
+        font-weight: bold;
+        color: white;
+        display: inline-block;
+    }
+
+    p {
+        color: white;
+    }
+}

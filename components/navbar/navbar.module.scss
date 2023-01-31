@@ -1,3 +1,16 @@
+#navbar {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    color: white;
+    z-index: 1;
+
+    @media screen and (max-width: 1280px) {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
 .brand {
     display: flex;
     width: 100%;
@@ -7,6 +20,7 @@
         font-weight: bold;
         text-decoration: none;
         font-size: 1.2rem;
+        color: white;
     }
 }
 
@@ -24,20 +38,22 @@
         width: 100%;
 
         a{
+            color: white;
             text-decoration: none;
 
             border-bottom: 2px solid transparent;
             transition-duration: 0.5s;
+            border-radius: 4px;
 
             &:hover{
-                border-bottom: 2px solid black;
+                background-color: rgba(255,255,255,0.1);
             }
         }
     }
 
     @media screen and (max-width: 1280px) {
         a {
-            font-size :0.8rem;
+            display: none;
         }
     }
 }
