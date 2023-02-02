@@ -11,38 +11,20 @@ export default function Home() {
     <>
       <Head>
         <title>Zīmola attīstība - Tiem, kas dara</title>
-       
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="reinards, saulītis, zīmols, branding, brends, attīstība, grafika, dizains, reklāmas, SEO, aģentūra"/>
-        <meta name="description" content="Zīmola attīstības speciālists"/>
-        <meta name="language" content="LV" />
-        <meta name="robots" content="index,follow" />
-        <meta charset="utf-8"/>
-        <meta name="author" content="Reinards Saulītis" />
-        <meta name="copyright" content="Reinards Saulītis" />
-        <meta http-equiv="cache-control" content="no-cache"/>     
-
         <meta name="og:title" content="Reinards Saulītis"/>
-        <meta name="og:url" content="https://www.reinards.lv"/>
-        <meta name="og:site_name" content="Reinards Saulītis"/>
-        <meta name="og:description" content="Zīmola attīstības speciālists"/>
-
-
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/>
-        <link rel="manifest" href="/icons/site.webmanifest"/>
-        <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5"/>
-        <link rel="shortcut icon" href="/icons/favicon.ico"/>
-        <meta name="msapplication-TileColor" content="#2d89ef"/>
-        <meta name="msapplication-config" content="/icons/browserconfig.xml"/>
-        <meta name="theme-color" content="#ffffff"/>
-        
+        <meta name="description" content="Zīmola attīstība. Re-Brendings. Grafiskais Dizains. Logo. Vizuālā Identitāte. Copywriting. Mārketings."/>
+        <meta name="og:description" content="Zīmola attīstība. Re-Brendings. Grafiskais Dizains. Logo. Vizuālā Identitāte. Copywriting. Mārketings."/>        
       </Head>
 
       <Navbar></Navbar>
-      <Header cover="home.jpg" title="Dizains. Bizness. Zīmols." cta="https://forms.gle/qY9EZNgobf9Mws5s6"></Header>
-      <CaseStudies></CaseStudies>
+      <Header
+        cover="home.jpg"
+        title="Meklē speciālistu, kam vari uzticēties?"
+        subtitle="Profesionāla zīmola attīstība - dizains, foto, copywriting, mājaslapa, SEO u.c."
+        cta="Gribu Attīstīties"
+        link="https://forms.gle/qY9EZNgobf9Mws5s6"
+      ></Header>
+      <CaseStudies preview></CaseStudies>
       <Footer></Footer>
     </>
   )

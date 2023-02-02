@@ -12,34 +12,11 @@ export default function Home() {
   return (
     <>
       <Head>
+
         <title>Portfolio | VDC</title>
-       
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="keywords" content="reinards, saulītis, zīmols, branding, brends, attīstība, grafika, dizains, reklāmas, SEO, aģentūra"/>
-        <meta name="description" content="Zīmola attīstība, projekta apraksts"/>
-        <meta name="language" content="LV" />
-        <meta name="robots" content="index,follow" />
-        <meta charset="utf-8"/>
-        <meta name="author" content="Reinards Saulītis" />
-        <meta name="copyright" content="Reinards Saulītis" />
-        <meta http-equiv="cache-control" content="no-cache"/>     
-
         <meta name="og:title" content="Portfolio | VDC"/>
-        <meta name="og:url" content="https://www.reinards.lv"/>
-        <meta name="og:site_name" content="Reinards Saulītis"/>
-        <meta name="og:description" content="Zīmola attīstība, projekta apraksts"/>
-
-
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png"/>
-        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png"/>
-        <link rel="manifest" href="/icons/site.webmanifest"/>
-        <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5"/>
-        <link rel="shortcut icon" href="/icons/favicon.ico"/>
-        <meta name="msapplication-TileColor" content="#2d89ef"/>
-        <meta name="msapplication-config" content="/icons/browserconfig.xml"/>
-        <meta name="theme-color" content="#ffffff"/>
-        
+        <meta name="description" content="VDC Mājaslapas Izstrāde un Dizains"/>
+        <meta name="og:description" content="VDC Mājaslapas Izstrāde un Dizains"/>
       </Head>
 
       <Navbar></Navbar>
@@ -47,10 +24,16 @@ export default function Home() {
       <ProjectDetails
         client="Ivars Tilgalis"
         company="Veģetatīvās Distonijas Centrs"
-        design="Reinards Jānis Saulītis"
-        web="Reinards Jānis Saulītis"
+        job1title="Web Izstrāde"
+        job1who="Reinards Jānis Saulītis"
+        job2title="SEO"
+        job2who="Reinards Jānis Saulītis"
         >
-        Apraksts tiek gatavots
+        Projekta uzdevums bija izveidot jaunu uzņēmuma mājaslapu, kas būtu pēc iespējas patīkamāka lietotājam, uzmanību pievēršot UX dizainam, animācijām, ātrai lapas ielādei un navigācijas izveidei tā, lai ir pēc iespējas vieglāk sazināties un pierakstīties uz seansu.
+        <br/><br/>
+        Mājaslapas ielāde ir zibenīgi ātra, pateicoties PWA tehnoloģijai, optimizētiem attēliem un Next.js maģijai.
+        <br/><br/>
+        Mājaslapa tika izstrādāta, novietota uz servera, savienota ar domēnu un sasaistīta ar Google Analytics apmeklētāju statistikas ievākšanai.
       </ProjectDetails>
       {/* <FullSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080"></FullSizePhoto>
       <HalfSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080">

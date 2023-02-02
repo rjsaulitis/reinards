@@ -4,18 +4,18 @@ import 'animate.css';
 
 import LandingImg from "../../public/images/headers/home.jpg"
 
-export default function Header({children, cover, title, cta}) {
+export default function Header({children, cover, title, subtitle, cta, link}) {
 
   if(cta) {
     return (
       <>
         <div className={css.background}>
-          <Image alt="Project Photo" src={LandingImg} width="1920" height="1080" object-fit="cover" />
+          <Image alt="Project Photo" src={"/images/headers/"+cover} width="1920" height="1080" object-fit="cover" />
         </div>
         <div className={css.tint}>
-            <h1 className="f1 mb4 tc animate__animated animate__slideInUp">{title}</h1>
-            {/* <p className="mt3 mb4">Lorem ipsum dolor sitamet amoris gamoris</p> */}
-            <a href={cta} target="_blank" className="hollow-link--white animate__animated animate__slideInUp animate__slow">Pieteikt Projektu</a>
+            <h1 className="f1-l mb0 tc animate__animated animate__fadeInDown ">{title}</h1>
+            <p className="tc mt3 mb4 animate__animated animate__fadeInUp animate__slow">{subtitle}</p>
+            <a href={link} target="_blank" className="hollow-link--white animate__animated animate__fadeInUp animate__slow">{cta}</a>
         </div>
       </>
     )
