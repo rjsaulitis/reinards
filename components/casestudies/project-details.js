@@ -14,7 +14,7 @@ export default function ProjectDetails({children, client, company, job1title, jo
                             {children}
                         </p>
                     </div>
-                    <div className={css.credits+" flex flex-column w-30"}>
+                    <div className={css.credits+" flex flex-column w-30-l"}>
                         <div className={css.credit}>
                             <h3 className="mb2">Klients:</h3>
                             <p className="mt0">{client} ({company})</p>
