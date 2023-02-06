@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
       <nav id={css.navbar} className="ph3 ph6-l pv4 pv5-l">
             <div className={css.brand}>
-                <a href="/">R. Saulītis</a>
+                <a href="/">R. J. Saulītis</a>
             </div>
             <div className={css.links}>
                 <ul>

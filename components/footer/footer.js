@@ -19,9 +19,9 @@ export default function Footer() {
 
             <div className="flex w-50 justify-end items-end">
               <div className="flex flex-column items-end flex-row-large">
-                <a title="Follow Reinards Saulītis on LinkedIn" href="https://www.linkedin.com/in/reinards-saulitis/" target="_blank" className={css.socials}>LinkedIn</a>
-                <a title="Follow Reinards Saulītis on TikTok" href="https://www.tiktok.com/@reinardssaulitis" target="_blank" className={css.socials}>TikTok</a>
-                <a title="Follow Reinards Saulītis on Facebook" href="https://www.facebook.com/reinardsjanissaulitis/" target="_blank" className={css.socials}>Facebook</a>
+                <a title="Follow Reinards Jānis Saulītis on LinkedIn" href="https://www.linkedin.com/in/rjsaulitis/" target="_blank" className={css.socials}>LinkedIn</a>
+                <a title="Follow Reinards Jānis Saulītis on TikTok" href="https://www.tiktok.com/@rjsaulitis" target="_blank" className={css.socials}>TikTok</a>
+                <a title="Follow Reinards Jānis Saulītis on Twitter" href="http://twitter.com/rjsaulitis" target="_blank" className={css.socials}>Twitter</a>
               </div>
             </div>
           </div>
