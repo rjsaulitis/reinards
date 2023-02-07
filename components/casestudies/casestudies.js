@@ -6,6 +6,7 @@ import Vdc from "../../public/images/mockups/vdc.jpg"
 import Lmg from "../../public/images/mockups/lmg.jpg"
 import Realdeal from "../../public/images/mockups/realdeal/a4-brochure.jpg"
 import Chalete from "../../public/images/mockups/chalete.jpg"
+import Alaise from "../../public/images/mockups/alaise.jpg"
 
 export default function CaseStudies({preview}) {
 
@@ -85,6 +86,15 @@ export default function CaseStudies({preview}) {
                     <div className={css.details}>
                         <h2>LM Group Buve</h2>
                         <a href="/portfolio/lmg" className="hollow-link--white">Skatīt Projektu</a>
+                    </div>
+                </div>
+                <div className={css.study}>
+                    <div className={css.img}>
+                        <Image alt="Project Photo" src={Alaise} objectFit="cover" />
+                    </div>
+                    <div className={css.details}>
+                        <h2>Alaise</h2>
+                        <a href="/portfolio/alaise" className="hollow-link--white">Skatīt Projektu</a>
                     </div>
                 </div>
                 <div className={css.study}>

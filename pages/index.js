@@ -20,7 +20,7 @@ export default function Home() {
       <Header
         cover="home.jpg"
         title="Meklē speciālistu, kam vari uzticēties?"
-        subtitle="Profesionāla zīmola attīstība - dizains, foto, copywriting, mājaslapa, SEO u.c."
+        subtitle="Profesionāla zīmola attīstība - dizains, copywriting, mājaslapa, shopify, stratēģija, SEO u.c."
         cta="Gribu Attīstīties"
         link="https://forms.gle/qY9EZNgobf9Mws5s6"
       ></Header>
