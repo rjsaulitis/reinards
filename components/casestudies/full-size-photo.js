@@ -6,7 +6,7 @@ export default function FullSizePhoto({src, width, height}) {
     return (
         <>
             <div className={css.full_photo_wrap}>
-                <Image src={"/../public/images/mockups/"+src} width={width} height={height}></Image>
+                <Image src={"/images/mockups/"+src} width={width} height={height}></Image>
             </div>
         </>
     )
