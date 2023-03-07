@@ -161,6 +161,11 @@
     }
 }
 
+.half_photo_wrap_reverse{
+    @extend .half_photo_wrap;
+    flex-direction: column-reverse;
+}
+
 .half_text {
     img {
         opacity: 0;
