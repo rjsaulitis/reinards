@@ -12,8 +12,8 @@ export default function HalfSizePhoto({children, src, width, height, reverse}) {
                     <div className="w-50-l">
                         <Image src={"/../public/images/mockups/"+src} width={width} height={height}></Image>
                     </div>
-                    <div className={"w-50-l flex flex-column justify-center items-center "+css.half_text}>
-                        <p>
+                    <div className={"w-50-l tc flex flex-column justify-center items-center "+css.half_text}>
+                        <p className="w-40">
                             {children}
                         </p>
                         <Image src={"/../public/images/mockups/"+src} width={width} height={height}></Image>
@@ -25,8 +25,8 @@ export default function HalfSizePhoto({children, src, width, height, reverse}) {
         return (
             <>
                 <div className={css.half_photo_wrap}>
-                    <div className={"w-50-l flex flex-column justify-center items-center "+css.half_text}>
-                        <p>
+                    <div className={"w-50-l tc flex flex-column justify-center items-center "+css.half_text}>
+                        <p className="w-40">
                             {children}
                         </p>
                         <Image src={"/../public/images/mockups/"+src} width={width} height={height}></Image>

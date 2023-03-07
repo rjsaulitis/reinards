@@ -35,10 +35,10 @@ export default function Home() {
         <br/><br/>
         Mājaslapa tika izstrādāta, novietota uz servera, savienota ar domēnu un sasaistīta ar Google Analytics apmeklētāju statistikas ievākšanai.
       </ProjectDetails>
-      {/* <FullSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080"></FullSizePhoto>
-      <HalfSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080">
-        Lorem ipsum dolor
-      </HalfSizePhoto> */}
+      
+      <FullSizePhoto reverse src="vdc/desktop.jpg" width="2560" height="1706">
+        Desktop Versija <br/><br/>
+      </FullSizePhoto>
       <Footer></Footer>
     </>
   )

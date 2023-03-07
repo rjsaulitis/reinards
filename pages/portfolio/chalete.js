@@ -36,7 +36,10 @@ export default function Home() {
         <br/><br/>
         Zīmols vēl ir attīstības procesā, tādēļ vairāk informācijas tiks pievienots vēlāk.
       </ProjectDetails>
-      {/* <FullSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080"></FullSizePhoto>
+
+      <FullSizePhoto src="chalete/brand.jpg" width="1920" height="1080"></FullSizePhoto>
+
+      {/* 
       <HalfSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080">
         Lorem ipsum dolor
       </HalfSizePhoto> */}

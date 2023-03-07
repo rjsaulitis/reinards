@@ -9,7 +9,7 @@ export default function Navbar() {
             </div>
             <div className={css.links}>
                 <ul>
-                    <li>
+                    {/* <li>
                         <a className="pa1 pa3-l db" href="/">Sākums</a>
                     </li>
                     <li>
@@ -17,7 +17,7 @@ export default function Navbar() {
                     </li>
                     {/* <li>
                         <a className="pa1 pa3-l db" href="#services">Blogs</a>
-                    </li> */}
+                    </li>  */}
                     <li>
                         <a className="pt1 pl1 pb1 pa3-l db" href="#footer">Kontakti</a>
                     </li>

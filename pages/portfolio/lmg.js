@@ -30,16 +30,20 @@ export default function Home() {
         job3title="Copywriting & Web"
         job3who="Reinards Jānis Saulītis"
         >
-        LM Group Buve zīmola attīstībā esam saskārušies ar gandrīz visu iespējamo. Ilgtermiņa sadarbības rezultātā uzņēmuma tēlu pārveidojām un piešķīrām tam personību.
+        LM Group Buve zīmola attīstībā esam saskārušies ar visu iespējamo. Ilgtermiņa sadarbības rezultātā uzņēmuma tēlu pārveidojām un piešķīrām tam personību.
         <br/><br/>
         Tika izstrādāta zīmola vizuālā identitāte, uzlabota un pilnveidota mājaslapa, veikta klientu aptauja, veidots sociālo tīklu saturs, reklāmas un konkursi sociālajos tīklos, kas piesaistīja uzņēmumam vairāk kā 3000 sekotāju.
         <br/><br/>
-        Tika uzdizainētas un apdrukātas 10+ dažādu veidu dāvanas klientiem, partneriem. Tika aplīmēts uzņēmuma auto, konteiners u.c.
+        Tika dizainētas un apdrukātas 10+ dažādu veidu dāvanas klientiem, partneriem. Tika aplīmēts uzņēmuma auto, konteiners u.c.
       </ProjectDetails>
       {/* <FullSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080"></FullSizePhoto>
-      <HalfSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080">
+       */}
+       <FullSizePhoto src="lmg/brand.jpg" width="1920" height="1080">
         Lorem ipsum dolor
-      </HalfSizePhoto> */}
+      </FullSizePhoto>
+      <FullSizePhoto src="lmg/lmgweb.jpg" width="4170" height="2000">
+        Lorem ipsum dolor
+      </FullSizePhoto>
       <Footer></Footer>
     </>
   )

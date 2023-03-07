@@ -17,7 +17,7 @@ export default function ProjectDetails({children, client, company, job1title, jo
                     <div className={css.credits+" flex flex-column w-30-l"}>
                         <div className={css.credit}>
                             <h3 className="mb2">Klients:</h3>
-                            <p className="mt0">{client} ({company})</p>
+                            <p className="mt0">{company}</p>
                         </div>
                         <div className={css.credit}>
                             <h3 className="mb2">{job1title}:</h3>
@@ -45,7 +45,7 @@ export default function ProjectDetails({children, client, company, job1title, jo
                     <div className={css.credits+" flex flex-column w-30"}>
                         <div className={css.credit}>
                             <h3 className="mb2">Klients:</h3>
-                            <p className="mt0">{client} ({company})</p>
+                            <p className="mt0">{company}</p>
                         </div>
                         <div className={css.credit}>
                             <h3 className="mb2">{job1title}:</h3>
@@ -76,7 +76,7 @@ export default function ProjectDetails({children, client, company, job1title, jo
                     <div className={css.credits+" flex flex-column w-30"}>
                         <div className={css.credit}>
                             <h3 className="mb2">Klients:</h3>
-                            <p className="mt0">{client} ({company})</p>
+                            <p className="mt0">{company}</p>
                         </div>
                         <div className={css.credit}>
                             <h3 className="mb2">{job1title}:</h3>

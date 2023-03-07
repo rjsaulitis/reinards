@@ -28,16 +28,25 @@ export default function Home() {
         job2title="Web Izstrāde"
         job2who="Reinards Jānis Saulītis"
         >
-        Viens no pirmajiem uzdevumiem bija bukleta dizains. Kā izveidot skaistu un funkcionālu bukletu, iekļaujot diezgan liela daudzuma informācijas salasāmā izmērā.
+        RealDeal ir zīmols ar lielām ambīcijām, kvalitatīviem produktiem, risinājumiem un jaudīgu darba procesu.
         <br/><br/>
-        Tika izstrādāts arī mazāks buklets, grafika ofisa tapetei un WIP (Work in progress) mājaslapas aizvietotājs.
-        <br/><br/>
-        Zīmols vēl ir attīstības procesā, tādēļ vairāk informācijas tiks pievienots vēlāk.
+        Divu mēnešu laikā kopš sadarbības uzsākšanas esam izstrādājuši dizainus vairākiem bukletiem, ofisa sienas grafikai un iesākuši izstrādāt mājaslapu.
       </ProjectDetails>
-      {/* <FullSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080"></FullSizePhoto>
-      <HalfSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080">
-        Lorem ipsum dolor
-      </HalfSizePhoto> */}
+      {/* <FullSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080"></FullSizePhoto> */}
+      <HalfSizePhoto reverse src="realdeal/a4-brochure.jpg" width="1920" height="1080">
+        Bukleta Dizains Nr.1 <br/><br/> Apvienojām divas nesavienojamas lietas - lielu daudzumu informācijas un skaistu dizainu. Nedaudz radošums un dizaina principi bija šī izaicinājuma atslēga
+      </HalfSizePhoto>
+
+      <HalfSizePhoto src="realdeal/a5.jpg" width="1920" height="1080">
+        Bukleta Dizains Nr.2 <br/><br/>
+        Dizains tika izstrādāts vien dažu dienu laikā. Fokuss. Fokuss. Fokuss.
+      </HalfSizePhoto>
+
+      <HalfSizePhoto reverse src="realdeal/warmotech.jpg" width="1920" height="1080">
+        Bukleta Dizains Nr.3 <br/><br/>
+        Lai gan zīmola primārā krāsa ir sarkana, šajā dizainā izmantojām zaļo, lai radītu dažādību reklāmu materiālos un raisītu pozitīvas asociācijas
+      </HalfSizePhoto>  
+
       <Footer></Footer>
     </>
   )

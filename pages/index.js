@@ -18,13 +18,13 @@ export default function Home() {
 
       <Navbar></Navbar>
       <Header
-        cover="home.jpg"
-        title="Meklē speciālistu, kam vari uzticēties?"
-        subtitle="Profesionāla zīmola attīstība - dizains, copywriting, mājaslapa, shopify, stratēģija, SEO u.c."
+        cover="portfolio.jpg"
+        title="Dizaineris, kam vari uzticēties"
+        subtitle="Zīmola identitāte, bukleti, dāvanas, web dizains"
         cta="Gribu Attīstīties"
         link="https://forms.gle/qY9EZNgobf9Mws5s6"
       ></Header>
-      <CaseStudies preview></CaseStudies>
+      <CaseStudies></CaseStudies>
       <Footer></Footer>
     </>
   )

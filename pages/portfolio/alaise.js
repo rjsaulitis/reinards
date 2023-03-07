@@ -28,8 +28,15 @@ export default function Home() {
         job2title="Grafiskais Dizains"
         job2who="Reinards Jānis Saulītis"
         >
-        Info tiek gatavots
+        Alaise ir personīgais zīmols Aleksas F. apakšveļas un apģērbu zīmolam. Uzņēmums ir pašā sākuma stadijā, tādēļ uzdevums bija izveidot vienotu identitāti,
+        kas atspoguļotu Aleksas personību.
+        <br/><br/>
+        Tika izstrādāts logo, krāsu palete, piemeklēti fonti, dizainētas uzlīmes, paciņas un kartītes.
       </ProjectDetails>
+
+      <FullSizePhoto src="alaise/brand.jpg" width="5760" height="3240">
+        
+      </FullSizePhoto>
       {/* <FullSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080"></FullSizePhoto>
       <HalfSizePhoto src="realdeal/a4-brochure.jpg" width="1920" height="1080">
         Lorem ipsum dolor

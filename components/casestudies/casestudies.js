@@ -2,11 +2,12 @@ import css from "./casestudies.module.scss"
 import Image from 'next/image'
 import "animate.css"
 
-import Vdc from "../../public/images/mockups/vdc.jpg"
-import Lmg from "../../public/images/mockups/lmg.jpg"
+import Vdc from "../../public/images/mockups/vdc/vdc.jpg"
+import Lmg from "../../public/images/mockups/lmg/lmg.jpg"
 import Realdeal from "../../public/images/mockups/realdeal/a4-brochure.jpg"
 import Chalete from "../../public/images/mockups/chalete.jpg"
 import Alaise from "../../public/images/mockups/alaise.jpg"
+import Rosaella from "../../public/images/mockups/rosaella/desktop.jpg"
 
 export default function CaseStudies({preview}) {
 
@@ -72,15 +73,6 @@ export default function CaseStudies({preview}) {
                 </div>
                 <div className={css.study}>
                     <div className={css.img}>
-                        <Image alt="Project Photo" src={Vdc} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>VDC</h2>
-                        <a href="/portfolio/vdc" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
                         <Image alt="Project Photo" src={Lmg} objectFit="cover" />
                     </div>
                     <div className={css.details}>
@@ -90,20 +82,39 @@ export default function CaseStudies({preview}) {
                 </div>
                 <div className={css.study}>
                     <div className={css.img}>
-                        <Image alt="Project Photo" src={Alaise} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>Alaise</h2>
-                        <a href="/portfolio/alaise" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
                         <Image alt="Project Photo" src={Chalete} objectFit="cover" />
                     </div>
                     <div className={css.details}>
                         <h2>Chalete</h2>
                         <a href="/portfolio/chalete" className="hollow-link--white">Skatīt Projektu</a>
+                    </div>
+                </div>
+                <div className={css.study}>
+                    <div className={css.img}>
+                        <Image alt="Project Photo" src={Vdc} objectFit="cover" />
+                    </div>
+                    <div className={css.details}>
+                        <h2>VDC</h2>
+                        <a href="/portfolio/vdc" className="hollow-link--white">Skatīt Projektu</a>
+                    </div>
+                </div>
+                <div className={css.study}>
+                    <div className={css.img}>
+                        <Image alt="Project Photo" src={Rosaella} objectFit="cover" />
+                    </div>
+                    <div className={css.details}>
+                        <h2>Rosaella</h2>
+                        <a href="/portfolio/rosaella" className="hollow-link--white">Skatīt Projektu</a>
+                    </div>
+                </div>
+                
+                <div className={css.study}>
+                    <div className={css.img}>
+                        <Image alt="Project Photo" src={Alaise} objectFit="cover" />
+                    </div>
+                    <div className={css.details}>
+                        <h2>Alaise</h2>
+                        <a href="/portfolio/alaise" className="hollow-link--white">Skatīt Projektu</a>
                     </div>
                 </div>
             </div>
