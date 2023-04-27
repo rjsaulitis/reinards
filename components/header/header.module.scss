@@ -1,87 +1,29 @@
 $mobile-height: 100vh;
 
-.arrow {
-    display: block;
-    position: absolute;
-    width: 100px;
-    // background-color: red;
-    z-index: 10;
-    top: 80vh;
-    left: 50vw;
-    transform: translateX(-50%) scaleY(1.2);
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    opacity: 0.5;
-    // animation: float 6s ease infinite forwards;
-}
-
-// @keyframes float {
-//     0% {
-//         padding-top: 0px;
-//     }
-//     50% {
-//         padding-top: 5px;
-//     }
-//     100% {
-//         padding-top: 0px;
-//     }
-// }
-
 .background {
     display: block;
     width: 100vw;
-    height: $mobile-height;
-    max-height: $mobile-height;
+    height: 100vh;
     overflow: hidden;
     top: 0;
     left: 0;
     background-size: cover;
-    background-position: 0 bottom;
+    background-position: center;
 
     img {
         height: $mobile-height;
         object-fit: cover;
+        filter: brightness(0.8);
     }
 
     @media screen and (min-width: 1280px) {
         height: 100vh;
         max-height: 100vh;
-        background-position: 0 bottom;
+        background-position: center;
 
         img {
             height: unset;
             object-fit: cover;
         }
-    }
-}
-
-.tint {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: $mobile-height;
-    max-height: $mobile-height;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.3);
-
-    h1 {
-        font-weight: bold;
-        color: white;
-        display: inline-block;
-    }
-
-    p {
-        color: white;
-    }
-
-    @media screen and (min-width: 1280px) {
-        height: 100vh;
-        max-height: 100vh;
     }
 }

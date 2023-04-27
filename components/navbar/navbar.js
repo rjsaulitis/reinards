@@ -1,28 +1,18 @@
 import css from "./navbar.module.scss"
+import Link from "next/link"
 
 
-export default function Navbar() {
+export default function Navbar({float=false}) {
+
     return (
-      <nav id={css.navbar} className="ph3 ph6-l pv4 pv5-l">
-            <div className={css.brand}>
-                <a href="/">R. J. Saulītis</a>
-            </div>
-            <div className={css.links}>
-                <ul>
-                    {/* <li>
-                        <a className="pa1 pa3-l db" href="/">Sākums</a>
-                    </li>
-                    <li>
-                        <a className="pa1 pa3-l db" href="/portfolio">Portfolio</a>
-                    </li>
-                    {/* <li>
-                        <a className="pa1 pa3-l db" href="#services">Blogs</a>
-                    </li>  */}
-                    <li>
-                        <a className="pt1 pl1 pb1 pa3-l db" href="#footer">Kontakti</a>
-                    </li>
-                </ul>
-            </div>
-      </nav>
+        <nav id={css.navbar} className={float ? css.float + " flex flex-column flex-row-m flex-row-l" : "flex flex-column flex-row-m flex-row-l"}>
+                <div className={"w-100 w-50-m w-50-l"}>
+                    <Link className={css.brand} href="/">R. J. Saulītis</Link>
+                </div>
+                <div className={"w-100 w-50-m w-50-l flex justify-end-m justify-end-l ma0 pa0"}>
+                    <a className={css.cta+" f7 f5-m f5-l"} href="mailto:reinardssaulitis@gmail.com" title="Send Email">reinardssaulitis@gmail.com</a>
+                </div>
+        </nav>
     )
+
 }

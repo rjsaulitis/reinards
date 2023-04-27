@@ -4,35 +4,29 @@ import Image from 'next/image'
 import Footer from '../../components/footer/footer'
 import Navbar from '../../components/navbar/navbar'
 import Header from '../../components/header/header'
-import ProjectDetails from '@/components/casestudies/project-details'
-import FullSizePhoto from '@/components/casestudies/full-size-photo'
-import HalfSizePhoto from '@/components/casestudies/half-size-photo'
+import Container from '@/components/container'
+import Details from '@/components/casestudies/details'
 
-export default function Home() {
+export default function CaseStudy() {
   return (
     <>
       <Head>
-
-        <title>Portfolio | Rosaella</title>
-        <meta name="og:title" content="Portfolio | Rosaella"/>
-        <meta name="description" content="Rosaella Mājaslapas Izstrāde un Dizains"/>
-        <meta name="og:description" content="Rosaella Mājaslapas Izstrāde un Dizains"/>
+        <title>Rosaella Zīmola Attīstība</title>
+        <meta name="og:title" content="Rosaella Zīmola Attīstība"/>
+        <meta name="description" content="Rosaella Zīmola Izstrāde un Dizains"/>
+        <meta name="og:description" content="Rosaella Zīmola Izstrāde un Dizains"/>      
       </Head>
 
-      <Navbar></Navbar>
-      <Header cover="rosaella.jpg" title="Rosaella"></Header>
-      <ProjectDetails
-        client="Šarlote Lorija Nagle"
-        company="Rosaella"
-        job1title="Web Dizains"
-        job1who="Reinards Jānis Saulītis"
-        >
-        Rosaella ir skolēnu mācību uzņēmums. Mans uzdevums bija izveidot konceptu interneta veikalam šim SMU.
-      </ProjectDetails>
-      
-      <FullSizePhoto reverse src="rosaella/rosaellaweb.jpg" width="2560" height="1706">
-        Desktop Versija <br/><br/>
-      </FullSizePhoto>
+      <Navbar float></Navbar>
+      <Header cover="rosaella/desktop.jpg"></Header>
+      <Container>
+        <Details title="Vienkārša internetveikala dizains skolēnu mācību uzņēmumam">
+          Rosaella ir skolēnu mācību uzņēmums. Mans uzdevums bija izveidot konceptu interneta veikalam šim SMU.
+        </Details>
+
+        <img src="/images/mockups/rosaella/rosaellaweb.jpg" fill className='mb2 mb4-l' />
+
+      </Container>
       <Footer></Footer>
     </>
   )

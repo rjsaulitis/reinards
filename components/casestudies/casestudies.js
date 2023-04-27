@@ -5,122 +5,24 @@ import "animate.css"
 import Vdc from "../../public/images/mockups/vdc/vdc.jpg"
 import Lmg from "../../public/images/mockups/lmg/lmg.jpg"
 import Realdeal from "../../public/images/mockups/realdeal/a4-brochure.jpg"
-import Chalete from "../../public/images/mockups/chalete.jpg"
-import Alaise from "../../public/images/mockups/alaise.jpg"
+import Chalete from "../../public/images/mockups/chalete/chalete.jpg"
+import Alaise from "../../public/images/mockups/alaise/alaise.jpg"
 import Rosaella from "../../public/images/mockups/rosaella/desktop.jpg"
 
-export default function CaseStudies({preview}) {
+import Thumbnail from "./thumbnail";
 
-    if(preview){
-        return (
-            <div id="projects" className="">
-    
-            {/* Start */}
-            <div className="flex flex-column flex-row-l flex-wrap">
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Realdeal} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>RealDeal</h2>
-                        <a href="/portfolio/realdeal" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Vdc} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>VDC</h2>
-                        <a href="/portfolio/vdc" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Lmg} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>LM Group Buve</h2>
-                        <a href="/portfolio/lmg" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.viewmore}>
-                    <div className={css.cta_wrap+" flex flex-column"}>
-                        <h3>Skatīt visus projektus</h3>
-                        <a className={css.cta+" pa3 ph4"} href="/portfolio">Portfolio</a>
-                    </div>
-                </div>
+export default function CaseStudies() {
+
+    return (
+        <div className={css.portfolio_container}>
+            <div id="portfolio" className="flex justify-between flex-wrap">
+                <Thumbnail url="alaise" photo={Alaise} title="Alaise" />
+                <Thumbnail url="vdc" photo={Vdc} title="Vdc" />
+                <Thumbnail url="lmg" photo={Lmg} title="Lmg" />
+                <Thumbnail url="chalete" photo={Chalete} title="Chalete" />
+                <Thumbnail url="realdeal" photo={Realdeal} title="Realdeal" />
+                <Thumbnail url="rosaella" photo={Rosaella} title="Rosaella" />
             </div>
-            {/* End */}
-            
-          </div>
-        )
-    }else{
-        return (
-            <div id="projects" className="">
-    
-    
-            {/* Start */}
-            <div className="flex flex-column flex-row-l flex-wrap">
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Realdeal} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>RealDeal</h2>
-                        <a href="/portfolio/realdeal" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Lmg} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>LM Group Buve</h2>
-                        <a href="/portfolio/lmg" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Chalete} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>Chalete</h2>
-                        <a href="/portfolio/chalete" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Vdc} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>VDC</h2>
-                        <a href="/portfolio/vdc" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Rosaella} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>Rosaella</h2>
-                        <a href="/portfolio/rosaella" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-                
-                <div className={css.study}>
-                    <div className={css.img}>
-                        <Image alt="Project Photo" src={Alaise} objectFit="cover" />
-                    </div>
-                    <div className={css.details}>
-                        <h2>Alaise</h2>
-                        <a href="/portfolio/alaise" className="hollow-link--white">Skatīt Projektu</a>
-                    </div>
-                </div>
-            </div>
-            {/* End */}
-            
-          </div>
-        )
-    }
+        </div>
+    )
 }

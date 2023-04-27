@@ -38,6 +38,8 @@ export default function App({ Component, pageProps }) {
         <meta name="msapplication-TileColor" content="#2d89ef"/>
         <meta name="msapplication-config" content="/icons/browserconfig.xml"/>
         <meta name="theme-color" content="#ffffff"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></link>
       </Head>
       
       <Component {...pageProps} />

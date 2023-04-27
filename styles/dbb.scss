@@ -1,4 +1,12 @@
 // DEBUG CLASSES
-.dbb {
-    border: 1px solid chartreuse !important;
+.dbb, .brd {
+    border: 1px solid red !important;
+
+    .brd {
+        border: 1px dashed blue !important;
+
+        .brd {
+            border: 1px dotted green !important;
+        }
+    }
 }

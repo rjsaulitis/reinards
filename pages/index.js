@@ -10,20 +10,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Zīmola attīstība - Tiem, kas dara</title>
+        <title>Profesionāli Dizaina Pakalpojumi | Portfolio | Reinards Jānis Saulītis</title>
         <meta name="og:title" content="Reinards Saulītis"/>
-        <meta name="description" content="Zīmola attīstība. Re-Brendings. Grafiskais Dizains. Logo. Vizuālā Identitāte. Copywriting. Mārketings."/>
-        <meta name="og:description" content="Zīmola attīstība. Re-Brendings. Grafiskais Dizains. Logo. Vizuālā Identitāte. Copywriting. Mārketings."/>        
+        <meta name="description" content="Izveido identitāti, kas komplimentēs Tava uzņēmuma personību, iedos odziņu, izcels konkurentu vidū un liks justies pārliecinātam, ka klienti Tevi redz pašā labākajā gaismā!"/>
+        <meta name="og:description" content="Izveido identitāti, kas komplimentēs Tava uzņēmuma personību, iedos odziņu, izcels konkurentu vidū un liks justies pārliecinātam, ka klienti Tevi redz pašā labākajā gaismā!"/>        
       </Head>
 
       <Navbar></Navbar>
-      <Header
-        cover="portfolio.jpg"
-        title="Dizaineris, kam vari uzticēties"
-        subtitle="Zīmola identitāte, bukleti, dāvanas, web dizains"
-        cta="Gribu Attīstīties"
-        link="https://forms.gle/qY9EZNgobf9Mws5s6"
-      ></Header>
       <CaseStudies></CaseStudies>
       <Footer></Footer>
     </>

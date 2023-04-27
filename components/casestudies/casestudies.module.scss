@@ -1,193 +1,94 @@
-.study {
-    display: flex;
-    width: 50%;
-    flex-basis: 50%;
-    position: relative;
+$break-mobile: 425px;
+$break-tablet: 768px;
+$break-desktop: 1024px;
+
+.thumbnail {
+    width: calc(50% - 5px);
+    margin-bottom: 10px;
+    max-height: 405px;
     overflow: hidden;
-    height: 80%;
-    // max-height: 50vh;
-
-    h3 {
-        position: absolute;
-        bottom: 30px;
-        left: 30px;
-        margin: 0;
-        background-color: black;
-        color: white;
-        padding: 1rem;
-    }
-
-    transition: all 0.25s ease;
-
-    &:hover, &:focus {
-        .details {
-            opacity: 1;
-        }
-
-        .img {
-            transform: scale(1.03);
-        }
-    }
-
-}
-
-.details {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    color: white;
+    line-height: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    opacity: 1;
     cursor: pointer;
-    transition: all 0.5s ease;
+    border-radius: 2px;
 
-    h2{
-        color: white;
-        letter-spacing: 1px;
-        margin-top: 0;
-    }
-
-    a {
-        color: white;
-    }
-
-    @media screen and (min-width: 60em) {
-        opacity: 0;
-        background-color: rgba(0, 0, 0, 0.774);
-    }
-}
-
-.viewmore {
-    display: flex;
-    width: 100%;
-    flex-basis: 100%;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    min-height: 65vw;
-    // background-color: rgb(240, 240, 240);
-    // border-bottom: 1px solid rgba(0,0,0,1);
-    box-shadow: 50px 0px 150px rgba(0,0,0,0.1);
-    text-align: center;
-
-    .cta_wrap {
-        justify-content: center;
-        align-items: center;
-
-        h3 {
-            font-weight: bold;
-            margin-top: 0;
-        }
-
-        .cta {
-            border: 1px solid black;
-            color: black;
-            text-align: center;
-            transition: all 0.25s ease;
-
-            &:hover {
-                background-color: black;
-                color: white;
-            }
-        }
-    }
-
-    @media screen and (min-width: 60em) {
-        width: 50%;
-        flex-basis: 50%;
-        min-height: unset;
-    }
-
-}
-
-.img{
-    margin: 0;
-    line-height: 0%;
-    display: block;
-    transition: all 1s ease;
-
-    img{
-        margin: 0;
-        line-height: 0%;
-        height: auto;
-        // max-height: 50vh;
-        // width: auto;
-        display: block;
-    }
-}
-
-.studytitle{
-    display: block;
-    width: 100%;
-    text-align: center;
-}
-
-@media screen and (max-width: 1024px) {
-    .study {
+    @media screen and (max-width: $break-tablet) {
         width: 100%;
     }
-}
-
-.full_photo_wrap{
-    line-height: 0;
-    img {
+    
+    .photo {
         height: auto;
-    }
-}
+        margin: 0;
+        padding: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
 
-.half_photo_wrap{
-    line-height: 0;
-    display: flex;
-    flex-direction: column;
-
-    @media screen and (min-width: 60em) {
-
-        flex-direction: row;
-    }
-
-    p {
-        line-height: 1.5rem;
-        position: absolute;
-    }
-
-    img {
-        height: auto;
-    }
-}
-
-.half_photo_wrap_reverse{
-    @extend .half_photo_wrap;
-    flex-direction: column-reverse;
-
-    @media screen and (min-width: 60em) {
-
-        flex-direction: row;
-    }
-}
-
-.half_text {
-    img {
-        opacity: 0;
-    }
-}
-
-.project_description {
-    line-height: 1.6rem;
-}
-.credits {
-
-    @media screen and (min-width: 60em) {
-        margin-top: 4rem;
-
-
-        h3 {
-            font-size: 1rem;
+        &:hover {
+            opacity: 0.5;
         }
+    }
+
+    .title{
+        position: absolute;
+        opacity: 0;
+        z-index: 1;
+        transition: all 0.5s ease;
+    }
+
+    &:hover, &:focus {
+        .title {
+            opacity: 1;
+        }
+    }
+}
+
+.thumbnail_bottom {
+    @extend .thumbnail;
+    
+    @media screen and (min-width: $break-tablet) {
+        margin-bottom: 0px;
+    }
+}
+
+.tint {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.444);
+
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.portfolio_container {
+    $mobile: 6vw;
+    $tablet: 6vw;
+    $laptop: 3vw;
+
+    @media screen and (max-width: $break-tablet) {
+        margin-left: $tablet;
+        margin-right: $tablet;
+    }
+
+    @media screen and (min-width: $break-tablet) {
+        margin-left: $laptop;
+        margin-right: $laptop;
+    }
+
+
+    #portfolio {
+        flex-direction: column;
+    
+        @media screen and (min-width: 1024px) {
+            flex-direction: row;
+        }
+
     }
 }
