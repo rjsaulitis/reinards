@@ -26,7 +26,7 @@ export default function Footer() {
           <span>Let's make magic happen!</span>
         </p>
         
-        <InlineWidget url="https://calendly.com/rjsaulitis/strategijas-sesija" />
+        {/* <InlineWidget url="https://calendly.com/rjsaulitis/strategijas-sesija" /> */}
 
         {/* <div className="rscont flex flex-column pv2 pv4-l">
           <div className="flex flex-column justify-center items-center pv6">
