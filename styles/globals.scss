@@ -2,9 +2,29 @@
 @import "./colors.scss";
 @import "./dbb.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-$font-main: Montserrat;
+@font-face {
+  font-family: SatoshiLightItalic;
+  src: url('/fonts/Satoshi-LightItalic.ttf');
+}
+@font-face {
+  font-family: SatoshiLight;
+  src: url('/fonts/Satoshi-Light.ttf');
+}
+@font-face {
+  font-family: SatoshiRegular;
+  src: url('/fonts/Satoshi-Regular.ttf');
+}
+@font-face {
+  font-family: SatoshiItalic;
+  src: url('/fonts/Satoshi-Italic.ttf');
+}
+@font-face {
+  font-family: SatoshiBold;
+  src: url('/fonts/Satoshi-Bold.ttf');
+}
+
+$font-main: SatoshiRegular;
 $font-accent: Montserrat;
 $font-body: Arial, sans-serif;
 
@@ -19,7 +39,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, label{
   color: $color-text;
-  font-family: $font-main;
+  font-family: SatoshiBold;
   line-height: 0.9;
   font-weight: bold;
 }
@@ -159,4 +179,26 @@ body {
 
 .margin-auto {
   margin: auto;
+}
+
+.index-header {
+  .logotype {
+    width: 50vw;
+
+    @media screen and (min-width: 960px) {
+      width: 23vw;
+    }
+  }
+
+  .illustration {
+    width: 100%;
+  }
+
+}
+
+.subtitle {
+  font-family: SatoshiLight;
+  color: rgba(59,59,59);
+  font-weight: 200;
+  letter-spacing: 0.5px;
 }

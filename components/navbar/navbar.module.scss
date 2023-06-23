@@ -16,9 +16,12 @@ $break-desktop: 1024px;
     align-items: center;
     justify-content: space-between;
 
-    .brand {
-        font-weight: bold;
-        font-size: 1.6rem;
+    .brand img {
+        width: 24vw;
+
+        @media screen and (min-width: 960px) {
+            width: 12vw;
+        }
     }
 
 

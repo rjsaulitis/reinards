@@ -15,13 +15,15 @@ export default function CaseStudies() {
 
     return (
         <div className={css.portfolio_container}>
+
+            
+
             <div id="portfolio" className="flex justify-between flex-wrap">
                 <Thumbnail url="alaise" photo={Alaise} title="Alaise" />
                 <Thumbnail url="vdc" photo={Vdc} title="Vdc" />
-                <Thumbnail url="lmg" photo={Lmg} title="Lmg" />
+                <Thumbnail url="lmg" photo={Lmg} title="Lmg" full="true"/>
                 <Thumbnail url="chalete" photo={Chalete} title="Chalete" />
                 <Thumbnail url="realdeal" photo={Realdeal} title="Realdeal" />
-                <Thumbnail url="rosaella" photo={Rosaella} title="Rosaella" />
             </div>
         </div>
     )

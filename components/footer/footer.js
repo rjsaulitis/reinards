@@ -5,40 +5,33 @@ import { InlineWidget } from "react-calendly";
 
 export default function Footer() {
     return (
-      <footer id="footer" className={css.footer+" flex flex-column justify-center pv5"}>
+      <footer id="footer" className={css.footer+" flex flex-column justify-center pv4 pv5-l"}>
 
-        <div className="flex justify-center pt5 pb4">
-          <a title="Follow Reinards Jānis Saulītis on LinkedIn" href="https://www.linkedin.com/in/rjsaulitis/" target="_blank" className={css.socials+" mh2 f5"}>
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-          <a title="Follow Reinards Jānis Saulītis on TikTok" href="https://www.tiktok.com/@rjsaulitis" target="_blank" className={css.socials+" mh2 f5"}>
-            <i class="fa-brands fa-tiktok"></i>
-          </a>
-          <a title="Follow Reinards Jānis Saulītis on Twitter" href="http://twitter.com/rjsaulitis" target="_blank" className={css.socials+" mh2 f5"}>
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a title="Follow Reinards Jānis Saulītis on Facebook" href="http://facebook.com/rjsaulitis" target="_blank" className={css.socials+" mh2 f5"}>
-          <i class="fa-brands fa-facebook-f"></i>
-          </a>
+<div className="ph4 ph6-l pb4 pt0 pb5-l flex">
+        <div className='w-70 flex flex-column justify-center'>
+          <div>
+            <h1 className="f1">Let's talk</h1>
+            <p className='f4 subtitle'>You know your business, I know brand design.<br/>
+            Let's build something awesome!</p>
+          </div>
         </div>
+        <div className='w-30 pv4'>
+          
+        </div>
+      </div>
 
-        <p className="flex justify-center pb4 ma0">
-          <span>Let's make magic happen!</span>
-        </p>
-        
-        {/* <InlineWidget url="https://calendly.com/rjsaulitis/strategijas-sesija" /> */}
-
-        {/* <div className="rscont flex flex-column pv2 pv4-l">
-          <div className="flex flex-column justify-center items-center pv6">
-            <h2 className="tc mb0">Ar ko varu Tev palīdzēt?</h2>
-            <p className="tc mt2 mb4 w-80 w-100-l">Aizpildi formu un ar Tevi sazināšos 24h laikā!</p>
-            <a className={css.cta+" tc b pv3 animate__animated animate__jello"} href="https://forms.gle/qY9EZNgobf9Mws5s6" target="_blank">Pieteikt Projektu</a>
-          </div>
-          <div className="flex flex-row justify-space-between">
-            <div className="flex w-50 flex-column justify-end items-start">
-            </div>
-          </div>
-        </div> */}
+      <div className="flex flex-column-reverse flex-row-l ph4 ph6-l">
+        <div className="w-50-l mb0-l">
+          <p className="subtitle">Copyright © Reinards Jānis Saulītis {new Date().getFullYear()}</p>
+        </div>
+        <div className="w-50-l flex justify-end-l">
+            <a className="subtitle pr2" rel="noopener noreferrer" href="http://instagram.com/rjsaulitis/" title="Instagram">Instagram</a>
+            <a className="subtitle pr2" rel="noopener noreferrer" href="http://tiktok.com/@rjsaulitis" title="TikTok">TikTok</a>
+            <a className="subtitle pr2" rel="noopener noreferrer" href="https://www.linkedin.com/in/rjsaulitis/" title="LinkedIn">LinkedIn</a>
+            <a className="subtitle" rel="noopener noreferrer" href="http://facebook.com/rjsaulitis/" title="Facebook">Facebook</a>
+        </div>
+      </div>
+      
       </footer>
     )
 }

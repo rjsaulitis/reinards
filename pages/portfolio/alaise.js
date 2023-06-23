@@ -25,10 +25,8 @@ export default function CaseStudy() {
         <Details title="Zīmola stratēģija, dizains un biznesa attīstība">
           Alaise ir uzņēmums, kas nodarbojas ar modes dizainu, apakšveļas modelēšanu un individuāliem pasūtījumiem. Mūsu uzdevums bija izveidot vizuālu identitāti, kas atspoguļotu uzņēmuma īpašnieces personību visos klienta saskarsmes punktos, piemēram, logo, uzlīmes, produkta iepakojums, sociālie tīkli, paldies kartiņa u.c.
         </Details>
-
-        <img src="/images/mockups/alaise/brand.jpg" fill className='mb2 mb4-l' />
-
       </Container>
+        <img src="/images/mockups/alaise/brand.jpg" fill className='mb2 mb4-l' />
       <Footer></Footer>
     </>
   )

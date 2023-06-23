@@ -24,9 +24,9 @@ export default function CaseStudy() {
           Rosaella ir skolēnu mācību uzņēmums. Mans uzdevums bija izveidot konceptu interneta veikalam šim SMU.
         </Details>
 
-        <img src="/images/mockups/rosaella/rosaellaweb.jpg" fill className='mb2 mb4-l' />
 
       </Container>
+        <img src="/images/mockups/rosaella/rosaellaweb.jpg" fill className='mb2 mb4-l' />
       <Footer></Footer>
     </>
   )

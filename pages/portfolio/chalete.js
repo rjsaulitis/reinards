@@ -27,10 +27,9 @@ export default function CaseStudy() {
           <br/><br/>
           Zīmols vēl ir attīstības procesā, tādēļ vairāk informācijas tiks pievienots vēlāk.
         </Details>
-
-        <img src="/images/mockups/chalete/brand.jpg" fill className='mb2 mb4-l' />
-
       </Container>
+      
+        <img src="/images/mockups/chalete/brand.jpg" fill className='mb2 mb4-l' />
       <Footer></Footer>
     </>
   )

@@ -28,10 +28,10 @@ Tika izstrādāta zīmola vizuālā identitāte, uzlabota un pilnveidota mājasl
 Tika dizainētas un apdrukātas 10+ dažādu veidu dāvanas klientiem, partneriem. Tika aplīmēts uzņēmuma auto, konteiners u.c.
         </Details>
 
-        <img src="/images/mockups/lmg/brand.jpg" fill className='mb2 mb4-l' />
-        <img src="/images/mockups/lmg/lmgweb.jpg" fill className='mb2 mb4-l' />
 
       </Container>
+        <img src="/images/mockups/lmg/brand.jpg" fill className='mb2 mb4-l' />
+        <img src="/images/mockups/lmg/lmgweb.jpg" fill className='mb2 mb4-l' />
       <Footer></Footer>
     </>
   )

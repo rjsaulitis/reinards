@@ -26,10 +26,10 @@ export default function CaseStudy() {
 Divu mēnešu laikā kopš sadarbības uzsākšanas esam izstrādājuši dizainus vairākiem bukletiem, ofisa sienas grafikai un iesākuši izstrādāt mājaslapu.
         </Details>
 
-        <img src="/images/mockups/realdeal/a5.jpg" fill className='mb2 mb4-l' />
-        <img src="/images/mockups/realdeal/warmotech.jpg" fill className='mb2 mb4-l' />
 
       </Container>
+        <img src="/images/mockups/realdeal/a5.jpg" fill className='mb2 mb4-l' />
+        <img src="/images/mockups/realdeal/warmotech.jpg" fill className='mb2 mb4-l' />
       <Footer></Footer>
     </>
   )
