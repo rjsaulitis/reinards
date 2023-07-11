@@ -20,7 +20,7 @@ export default function CaseStudy() {
       <Navbar float></Navbar>
       <Header cover="realdeal/a4-brochure.jpg"></Header>
       <Container>
-        <Details title="Zīmola attīstība un dizains koksnes aizsardzības produktu izplatītājam Latvijā">
+        <Details title="Bukletu dizaina izstrāde">
         RealDeal ir zīmols ar lielām ambīcijām, kvalitatīviem produktiem, risinājumiem un jaudīgu darba procesu.
 <br/><br/>
 Divu mēnešu laikā kopš sadarbības uzsākšanas esam izstrādājuši dizainus vairākiem bukletiem, ofisa sienas grafikai un iesākuši izstrādāt mājaslapu.
