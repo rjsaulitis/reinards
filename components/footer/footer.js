@@ -10,9 +10,9 @@ export default function Footer() {
 <div className="ph4 ph6-l pb4 pt0 pb5-l flex">
         <div className='w-70 flex flex-column justify-center'>
           <div>
-            <h1 className="f1">Let's talk</h1>
-            <p className='f4 subtitle'>You know your business, I know brand design.<br/>
-            Let's build something awesome!</p>
+            <h1 className="f1">Aiziet, strādājam!</h1>
+            <p className='f4 subtitle'>Tu pārzini savu biznesu, Es zīmola attīstību.<br/>
+            Kopā spēsim paveikt vairāk!</p>
           </div>
         </div>
         <div className='w-30 pv4'>

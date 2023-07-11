@@ -13,7 +13,7 @@ $mobile-height: 100vh;
     img {
         height: $mobile-height;
         object-fit: cover;
-        filter: brightness(0.8);
+        background-position: center;
     }
 
     @media screen and (min-width: 1280px) {
@@ -22,8 +22,9 @@ $mobile-height: 100vh;
         background-position: center;
 
         img {
-            height: unset;
+            height: 100vh;
             object-fit: cover;
+            background-position: center center;
         }
     }
 }

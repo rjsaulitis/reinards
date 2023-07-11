@@ -23,9 +23,9 @@ export default function CaseStudies() {
                 <Thumbnail url="alaise" photo={Alaise} title="Alaise" />
                 <Thumbnail url="vdc" photo={Vdc} title="Vdc" />
                 <Thumbnail url="lmg" photo={Lmg} title="Lmg" full/>
-                <Thumbnail url="" photo={Fencepro} title="Fencepro" />
+                <Thumbnail url="fencepro" photo={Fencepro} title="Fencepro" />
                 <Thumbnail url="chalete" photo={Chalete} title="Chalete" />
-                <Thumbnail url="" photo={AlutuMedus} title="Alutu Medus" full/>
+                <Thumbnail url="alutumedus" photo={AlutuMedus} title="Alutu Medus" full/>
             </div>
         </div>
     )
