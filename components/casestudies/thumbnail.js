@@ -5,7 +5,8 @@ import "animate.css"
 
 export default function Thumbnail({photo, title, url, full}) {
 
-    if (full == "true"){
+    if (full){
+
         return (
             <Link href={"/portfolio/"+url} className={css.thumbnail_fw}>
                 <h2 className={css.title}>{title}</h2>
