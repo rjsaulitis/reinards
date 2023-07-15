@@ -41,7 +41,10 @@ $break-desktop: 1024px;
 
 .thumbnail_last {
     @extend .thumbnail;
-    margin-bottom: 0px;
+
+    @media screen and (max-width: $break-tablet) {
+        margin-bottom: 0px;
+    }
 }
 
 .thumbnail_fw {

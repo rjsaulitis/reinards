@@ -10,7 +10,7 @@ export default function Details({title, thumbnail, children}) {
                 {children}
             </p>
           </div>
-          <div className={"w-100 w-50-l flex justify-center justify-end-l mb5 mb0-l"}>
+          <div className={"w-100 w-50-l flex justify-center justify-end-l mb0"}>
             <img src={"/images/"+thumbnail} />
           </div>
         </div>
