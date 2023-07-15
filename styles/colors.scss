@@ -1,5 +1,9 @@
 $color-bg: #f8f8f8;
-$color-text: rgb(5, 5, 5);
+
+$color-text: rgb(221, 221, 221);
+$color-headline: rgb(231, 231, 231);
+
+
 $color-text--accent: #ff0000c6;
 $color-text--accent2: rgb(75, 206, 86);
 
@@ -20,6 +24,11 @@ $color-gray3:rgb(193, 193, 193);
 $color-green--saturated: #94EABE;
 
 $accent: #b84040;
+$accent-2: rgb(205, 173, 115);
+
+.accent2 {
+    color: $accent-2;
+}
 
 
 .c-accent {

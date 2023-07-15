@@ -23,6 +23,10 @@
   font-family: SatoshiBold;
   src: url('/fonts/Satoshi-Bold.ttf');
 }
+@font-face {
+  font-family: SatoshiBlack;
+  src: url('/fonts/Satoshi-Black.ttf');
+}
 
 $font-main: SatoshiRegular;
 $font-accent: Montserrat;
@@ -32,13 +36,17 @@ $font-body: Arial, sans-serif;
   font-family: $font-accent;
 }
 
+.black {
+  font-family: SatoshiBlack;
+}
+
 body {
-  background-color: white;
+  background-color: black;
   font-family: $font-main;
 }
 
 h1, h2, h3, h4, h5, h6, label{
-  color: $color-text;
+  color: $color-headline;
   font-family: SatoshiBold;
   line-height: 0.9;
   font-weight: bold;
@@ -182,23 +190,169 @@ body {
 }
 
 .index-header {
-  .logotype {
-    width: 50vw;
+  .name_title {
+    margin-top: 2vw;
+    margin-bottom: 8vw;
+    font-size: 16vw;
+    font-weight: 900;
+    color: $color-headline;
 
     @media screen and (min-width: 960px) {
-      width: 23vw;
+      font-size: 6vw;
+      margin-bottom: 4vw;
+    }
+
+    @media screen and (min-width: 1024px) {
+      font-size: 7vw;
+      margin-bottom: 4vw;
     }
   }
 
-  .illustration {
+  .header-spacer {
+    margin-bottom: 20vw;
+
+    h1 {
+      color: $color-text;
+    }
+  }
+
+  @media screen and (min-width: 960px) {
+    .header-spacer {
+      padding-top: 0vw;
+      margin-bottom: 10vw;
+    }
+  }
+
+  .portrait {
     width: 100%;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: -7vw;
+    right: -20vw;
+    z-index: -1;
+    width: 150vw;
+    opacity: 0.2;
+    transform: scale(1.4);
+  }
+
+  @media screen and (min-width: 960px) {
+    .portrait {
+      top: -17vw;
+      left: -20vw;
+      width: 75vw;
+      height: auto;
+      transform: scaleX(-1);
+      opacity: 0.15;
+    }
   }
 
 }
 
 .subtitle {
   font-family: SatoshiLight;
-  color: rgba(59,59,59);
+  color: $color-text;
   font-weight: 200;
   letter-spacing: 0.5px;
+}
+
+.bio_preview, .bio_more {
+  font-family: SatoshiRegular;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  // width: 0%;
+
+  button {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    text-transform: none;
+    font-family: SatoshiBold;
+    transition: all 0.25s ease;
+    padding-left: 0px;
+
+    &:hover {
+      color: #0053FF;
+      padding-left: 2px;
+    }
+  }
+}
+
+.bio_more {
+  display: none;
+}
+
+.usp {
+  ol {
+    margin: 0;
+    // padding-left: 20px;
+    // list-style: none; counter-reset: li;
+
+    li {
+      // counter-increment: li;
+      margin-bottom: 0.9rem;
+      font-size: 22px;
+      font-family: SatoshiBold;
+      color: $color-text;
+
+      p {
+        color: $color-text;
+        margin: 0;
+        padding: 0;
+        font-family: SatoshiLight;
+      }
+    }
+
+    // li::before {
+    //   content: counter(li);
+    //   color: #0053FF;
+    //   display: inline-block;
+    //   width: 1em;
+    //   margin-left: -1em;
+    //   font-family: SatoshiBold;
+    //   text-align: center;
+    //   padding-right: 0.2rem;
+    // }
+
+  }
+}
+
+.cta {
+  padding: 0.7rem 1.5rem;
+  color: rgb(0, 0, 0);
+  background-color: $accent-2;
+  transition: all 0.25s ease;
+  font-weight: 5600;
+  font-family: SatoshiBold;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 3vw;
+
+  &:hover {
+      // padding-left: 30px;
+      // padding-right: 30px;
+      background-color: black;
+      border: 1px solid white;
+      color: white;
+      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+
+
+  @media screen and (min-width: 720px) {
+    font-size: 2vw;
+  }
+
+  @media screen and (min-width: 960px) {
+    font-size: 1.2vw;
+  }
+}
+
+.accent {
+  color: #004AE4;
+}
+
+.bold {
+  font-family: SatoshiBold;
 }

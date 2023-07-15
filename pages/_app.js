@@ -6,6 +6,7 @@ import Script from 'next/script'
 export default function App({ Component, pageProps }) {
   return (
     <>
+     
       <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
       <Script strategy="lazyOnload">
           {`
