@@ -34,12 +34,12 @@ export default function Home() {
         <meta name="og:description" content="Izveido identitāti, kas komplimentēs Tava uzņēmuma personību, iedos odziņu, izcels konkurentu vidū un liks justies pārliecinātam, ka klienti Tevi redz pašā labākajā gaismā!"/>        
       </Head>
 
-      <div id="header" className="index-header ph4 ph6-l pt6 pt6-l pb5   flex flex-column flex-row-l">
+      <div id="header" className="index-header ph3 ph6-l pt6 pt6-l pb5   flex flex-column flex-row-l">
         <img className='portrait' src="/images/portrait.webp"></img>
         <div className=' w-100 w-50-l flex flex-column justify-start pb4 pb0-l'>
-          <div className='header-spacer'>
+          <div className='header-spacer flex flex-column items-center items-start-l'>
             {/* <h1 className='f4 f3-l pl1'>Portfolio {new Date().getFullYear()}</h1> */}
-            <h2 className='name_title black'>Reinards <br/> Saulītis</h2>
+            <h2 className='name_title black tc tl-l'>Reinards <br/> Saulītis</h2>
             <a className="cta f7 f5-m f5-l" href="https://calendly.com/rjsaulitis/strategijas-sesija" target='_blank'>Bezmaksas 1:1 stratēģijas sesija</a>
           </div>
         </div>
