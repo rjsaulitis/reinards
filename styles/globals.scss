@@ -227,8 +227,8 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    position: absolute;
-    top: -7vw;
+    position: fixed;
+    bottom: 0vw;
     right: -20vw;
     z-index: -1;
     width: 150vw;
@@ -244,6 +244,8 @@ body {
       height: auto;
       transform: scaleX(-1);
       opacity: 0.15;
+      position: absolute;
+      bottom: unset;
     }
   }
 
@@ -286,16 +288,23 @@ body {
 .usp {
   ol {
     margin: 0;
-    // padding-left: 20px;
-    // list-style: none; counter-reset: li;
+    padding-left: 40px;
+    padding-right: 10px;
 
     li {
-      // counter-increment: li;
       margin-bottom: 0.9rem;
-      font-size: 22px;
+      font-size: 4vw;
       font-family: SatoshiBold;
       color: $color-text;
+      
+      @media screen and (min-width: 720px) {
+        font-size: 2vw;
+      }
 
+      @media screen and (min-width: 1024px) {
+        font-size: 1.4vw;
+      }
+      
       p {
         color: $color-text;
         margin: 0;
@@ -303,17 +312,6 @@ body {
         font-family: SatoshiLight;
       }
     }
-
-    // li::before {
-    //   content: counter(li);
-    //   color: #0053FF;
-    //   display: inline-block;
-    //   width: 1em;
-    //   margin-left: -1em;
-    //   font-family: SatoshiBold;
-    //   text-align: center;
-    //   padding-right: 0.2rem;
-    // }
 
   }
 }

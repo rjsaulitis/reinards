@@ -34,7 +34,7 @@ export default function Home() {
         <meta name="og:description" content="Izveido identitāti, kas komplimentēs Tava uzņēmuma personību, iedos odziņu, izcels konkurentu vidū un liks justies pārliecinātam, ka klienti Tevi redz pašā labākajā gaismā!"/>        
       </Head>
 
-      <div id="header" className="index-header ph3 ph6-l pt6 pt6-l pb5   flex flex-column flex-row-l">
+      <div id="header" className="index-header ph3 ph6-l pt6 pb4 pt6-l   flex flex-column flex-row-l">
         <img className='portrait' src="/images/portrait.webp"></img>
         <div className=' w-100 w-50-l flex flex-column justify-start pb4 pb0-l'>
           <div className='header-spacer flex flex-column items-center items-start-l'>

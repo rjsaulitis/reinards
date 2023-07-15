@@ -39,6 +39,11 @@ $break-desktop: 1024px;
     }
 }
 
+.thumbnail_last {
+    @extend .thumbnail;
+    margin-bottom: 0px;
+}
+
 .thumbnail_fw {
     @extend .thumbnail;
     width: 100%;
@@ -72,6 +77,7 @@ $break-desktop: 1024px;
     $mobile: 6vw;
     $tablet: 6vw;
     $laptop: 3vw;
+    background-color: black;
 
 
     #portfolio {
