@@ -18,20 +18,17 @@ export default function CaseStudy() {
       </Head>
 
       <Navbar float></Navbar>
-      <Header cover="lmg/lmg.jpg"></Header>
-      <Container>
-        <Details title="Zīmola attīstība, re-brand un klientu piesaiste būvniecības uzņēmumam">
+      {/* <Header cover="lmg/lmg.jpg"></Header> */}
+        <Details thumbnail="lmg-th.webp" title="Zīmola attīstība, re-brand un klientu piesaiste būvniecības uzņēmumam">
         LM Group Buve zīmola attīstībā esam saskārušies ar visu iespējamo. Ilgtermiņa sadarbības rezultātā uzņēmuma tēlu pārveidojām un piešķīrām tam personību.
-<br/><br/>
-Tika izstrādāta zīmola vizuālā identitāte, uzlabota un pilnveidota mājaslapa, veikta klientu aptauja, veidots sociālo tīklu saturs, reklāmas un konkursi sociālajos tīklos, kas piesaistīja uzņēmumam vairāk kā 3000 sekotāju.
-<br/><br/>
-Tika dizainētas un apdrukātas 10+ dažādu veidu dāvanas klientiem, partneriem. Tika aplīmēts uzņēmuma auto, konteiners u.c.
+        <br/><br/>
+        Tika izstrādāta zīmola vizuālā identitāte, uzlabota un pilnveidota mājaslapa, veikta klientu aptauja, veidots sociālo tīklu saturs, reklāmas un konkursi sociālajos tīklos, kas piesaistīja uzņēmumam vairāk kā 3000 sekotāju.
+        <br/><br/>
+        Tika dizainētas un apdrukātas 10+ dažādu veidu dāvanas klientiem, partneriem. Tika aplīmēts uzņēmuma auto, konteiners u.c.
         </Details>
 
-
-      </Container>
-        <img src="/images/mockups/lmg/brand.jpg" fill className='mb2 mb4-l' />
-        <img src="/images/mockups/lmg/lmgweb.jpg" fill className='mb2 mb4-l' />
+        <img src="/images/mockups/lmg/brand.jpg" />
+        <img src="/images/mockups/lmg/lmgweb.jpg" />
       <Footer></Footer>
     </>
   )

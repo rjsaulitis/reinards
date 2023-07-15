@@ -18,12 +18,12 @@ export default function CaseStudy() {
       </Head>
 
       <Navbar float></Navbar>
-      <Header cover="alutumedus/header.webp"></Header>
-      <Container>
-        <Details title="Zīmola attīstība un dizains medus tirgotājai Agnesei Alutei">
+      
+      
+        <Details thumbnail="alutu-th.webp" title="Zīmola attīstība un dizains medus tirgotājai Agnesei Alutei">
           Projekta apraksts tiek gatavots...
         </Details>
-      </Container>
+      
       <Footer></Footer>
     </>
   )

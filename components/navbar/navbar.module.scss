@@ -11,7 +11,7 @@ $break-desktop: 1024px;
     $mobile: 6vw;
     $tablet: 6vw;
     $laptop: 3vw;
-    padding-top: 1.3vw;
+    padding-top: 4vw;
     padding-bottom: 1.3vw;
     width: 100%;
     box-sizing: border-box;
@@ -20,11 +20,11 @@ $break-desktop: 1024px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
 
     .brand img {
         width: 7vw;
+        filter: invert(1);
 
         @media screen and (min-width: 960px) {
             width: 2.5vw;
@@ -32,19 +32,17 @@ $break-desktop: 1024px;
     }
 
 
-    @media screen and (max-width: $break-tablet) {
-        margin-left: $tablet;
-        margin-right: $tablet;
-        width: calc(100% - $tablet*2);
-        padding-top: 8vw;
-        padding-bottom: 10vw;
-    }
+    // @media screen and (max-width: $break-tablet) {
+    //     margin-left: $tablet;
+    //     margin-right: $tablet;
+    //     width: calc(100% - $tablet*2);
+    //     padding-top: 8vw;
+    //     padding-bottom: 10vw;
+    // }
 
     @media screen and (min-width: $break-tablet) {
         width: 100%;
-        padding-left: 9.3vw;
-        padding-right: 9.3vw;
-        padding-top: 1.3vw;
+        padding-top: 4vw;
         padding-bottom: 1.3vw;
     }
 }

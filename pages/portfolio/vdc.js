@@ -18,9 +18,8 @@ export default function CaseStudy() {
       </Head>
 
       <Navbar float></Navbar>
-      <Header cover="vdc/vdc.jpg"></Header>
-      <Container>
-        <Details title="Modernas mājaslapas izstrāde Veģetatīvās Distonijas Centram">
+
+      <Details thumbnail="vdc-th.webp" title="Modernas mājaslapas izstrāde Veģetatīvās Distonijas Centram">
           Projekta uzdevums bija izveidot jaunu uzņēmuma mājaslapu, kas būtu pēc iespējas patīkamāka lietotājam, uzmanību pievēršot UX dizainam, animācijām, ātrai lapas ielādei un navigācijas izveidei tā, lai ir pēc iespējas vieglāk sazināties un pierakstīties uz seansu.
                       <br/><br/>
           Mājaslapas ielāde ir zibenīgi ātra, pateicoties PWA tehnoloģijai, optimizētiem attēliem un Next.js maģijai.
@@ -28,8 +27,6 @@ export default function CaseStudy() {
           Mājaslapa tika izstrādāta, novietota uz servera, savienota ar domēnu un sasaistīta ar Google Analytics apmeklētāju statistikas ievākšanai.
         </Details>
 
-
-      </Container>
         <img src="/images/mockups/vdc/desktop.jpg" fill className='mb2 mb4-l' />
       <Footer></Footer>
     </>

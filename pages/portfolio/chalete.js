@@ -18,16 +18,13 @@ export default function CaseStudy() {
       </Head>
 
       <Navbar float></Navbar>
-      <Header cover="chalete/chalete.jpg"></Header>
-      <Container>
-        <Details title="Zīmola attīstība un dizains koksnes aizsardzības produktu izplatītājam Latvijā">
+        <Details thumbnail="chalete-th.webp" title="Zīmola attīstība un dizains koksnes aizsardzības produktu izplatītājam Latvijā">
           Chalete ir jauns uzņēmums, kas izplata dažādus materiālus koksnes aizsardzībai. Projekta ietvaros tika dizainēts logo, etiķetes produktiem, vizītkarte un zīmola vadlīnijas.
     <br/><br/>
           Viens no lielākajiem uzdevumiem bija izstrādāt digitālu produktu katalogu, vienkāršai pārlūkošanai ar bildēm, krāsu toņiem un instrukcijām produkta lietošanā.
           <br/><br/>
           Zīmols vēl ir attīstības procesā, tādēļ vairāk informācijas tiks pievienots vēlāk.
         </Details>
-      </Container>
       
         <img src="/images/mockups/chalete/brand.jpg" fill className='mb2 mb4-l' />
       <Footer></Footer>

@@ -18,12 +18,12 @@ export default function CaseStudy() {
       </Head>
 
       <Navbar float></Navbar>
-      <Header cover="fencepro/header.webp"></Header>
-      <Container>
-        <Details title="Zīmola attīstība un dizains metāla žogu, vārtu un automātikas uzņēmumam">
-          Projekta apraksts tiek gatavots...
+      <Details thumbnail="fencepro-th.webp" title="Lorem ipsum">
+        Apraksts tiek gatavots
         </Details>
-      </Container>
+
+        {/* <img src="/images/mockups/lmg/brand.jpg" />
+        <img src="/images/mockups/lmg/lmgweb.jpg" /> */}
       <Footer></Footer>
     </>
   )

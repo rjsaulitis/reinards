@@ -16,9 +16,6 @@ export default function CaseStudies() {
 
     return (
         <div className={css.portfolio_container}>
-
-            
-
             <div id="portfolio" className="flex justify-between flex-wrap ph2-l mh2-l">
                 <Thumbnail url="lmg" photo={Lmg} title="Lmg"/>
                 <Thumbnail url="fencepro" photo={Fencepro} title="Fencepro" />

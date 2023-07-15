@@ -288,12 +288,17 @@ body {
 .usp {
   ol {
     margin: 0;
-    padding-left: 40px;
+    padding-left: 6vw;
     padding-right: 10px;
+
+    @media screen and (min-width: 720px) {
+      padding-left: 2.5vw;
+    }
+
 
     li {
       margin-bottom: 0.9rem;
-      font-size: 4vw;
+      font-size: 4.5vw;
       font-family: SatoshiBold;
       color: $color-text;
       
@@ -353,4 +358,9 @@ body {
 
 .bold {
   font-family: SatoshiBold;
+}
+
+img {
+  display: inherit;
+  line-height: 0;
 }
