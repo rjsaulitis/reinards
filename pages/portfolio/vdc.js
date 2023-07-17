@@ -27,7 +27,8 @@ export default function CaseStudy() {
           Mājaslapa tika izstrādāta, novietota uz servera, savienota ar domēnu un sasaistīta ar Google Analytics apmeklētāju statistikas ievākšanai.
         </Details>
 
-        <img src="/images/mockups/vdc/desktop.jpg" fill className='mb2 mb4-l' />
+        <img src="/images/mockups/vdc/vdc.webp" />
+        <img src="/images/mockups/vdc/desktop.jpg" />
       <Footer></Footer>
     </>
   )
