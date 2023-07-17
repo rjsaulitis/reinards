@@ -19,12 +19,14 @@ export default function CaseStudy() {
 
       <Navbar float></Navbar>
       {/* <Header cover="lmg/lmg.jpg"></Header> */}
-        <Details thumbnail="lmg-th.webp" title="Zīmola attīstība, re-brand un klientu piesaiste būvniecības uzņēmumam">
-        LM Group Buve zīmola attīstībā esam saskārušies ar visu iespējamo. Ilgtermiņa sadarbības rezultātā uzņēmuma tēlu pārveidojām un piešķīrām tam personību.
+        <Details thumbnail="lmg-th.webp" title="Daudzu gadu sadarbība">
+        LM GROUP (Agrāk LM GROUP BUVE) zīmola attīstībā esam saskārušies ar visu iespējamo. Ilgtermiņa sadarbības rezultātā uzņēmuma tēlu pārveidojām un laika gaitā piešķīrām tam personību.
         <br/><br/>
         Tika izstrādāta zīmola vizuālā identitāte, uzlabota un pilnveidota mājaslapa, veikta klientu aptauja, veidots sociālo tīklu saturs, reklāmas un konkursi sociālajos tīklos, kas piesaistīja uzņēmumam vairāk kā 3000 sekotāju.
         <br/><br/>
         Tika dizainētas un apdrukātas 10+ dažādu veidu dāvanas klientiem, partneriem. Tika aplīmēts uzņēmuma auto, konteiners u.c.
+        <br/><br/>
+        Visnesenākais projekts bija jaunu krāsu ieviešana zīmolā (zelts ar melnu) un mājaslapas atjaunots dizains, kā arī izstrāde. 
         </Details>
 
         <img src="/images/mockups/lmg/brand.jpg" />

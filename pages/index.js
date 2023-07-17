@@ -47,12 +47,12 @@ export default function Home() {
         <div className='usp'>
           <h2 className='mb4 mt0 pt0'>Kādēļ <span className='accent2 bold'>sadarboties</span> ar mani?</h2>
           <ol className=''>
-            <li><p>Zīmolus izstrādāju jau 4 gadus</p></li>
+            <li><p>Zīmolus attīstu jau 4 gadus</p></li>
             <li><p>Apmierināti klienti dažādās industrijās</p></li>
             <li><p>Pieredze digitālu & drukājamu risinājumu izstrādē</p></li>
             {/* <li><p>Specializācija uz pakalpojumu sektoru</p></li> */}
             <li><p>Plašs redzējums un stratēģiski risinājumi kontekstā</p></li>
-            <li><p>Jaunu prasmju un zināšanu apguve katru dienu</p></li>
+            <li><p>Mūsdienīgas metodes un individuāla pieeja</p></li>
             <li><p>Risinājumu izstrāde uzņēmumam ar apgrozījumu 100'000eur</p></li>
             <li><p>Prasmes jaunu klientu piesaistē un pārdošanā</p></li>
             <li><p>Skaidrs process un paredzams rezultāts</p></li>

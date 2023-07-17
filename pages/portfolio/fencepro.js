@@ -18,12 +18,21 @@ export default function CaseStudy() {
       </Head>
 
       <Navbar float></Navbar>
-      <Details thumbnail="fencepro-th.webp" title="Lorem ipsum">
-        Apraksts tiek gatavots
-        </Details>
+      <Details thumbnail="fencepro-th.webp" title="FENCEPRO zīmola attīstība">
+        FENCEPRO ir līdz šim viens no pilnīgākajiem zīmola attīstības projektiem, ko esmu veicis. Ne tikai izstrādājām logo, bet visu kompānijas stilu.
+        <br/><br/>
+        Tika dizainēts digitāls portfolio, vizītkarte, uzlīmes, aploksne, e-pasta paraksts, dokumenti, mājaslapa, sociālo tīklu grafikas un dažādas ikonas.
+        <br/><br/>
+        Projekts tika uzsākts ar klienta iesniegtu logo ideju, taču drīz izrādījās, ka tieši tāds jau tiek izmantots citur. Vēlējāmies paturēt sākotnējo ideju par sešstūri un iekļaut kompānijas iniciāļus - tā arī tapa pašreizējā logo ideja.
+      </Details>
 
-        {/* <img src="/images/mockups/lmg/brand.jpg" />
-        <img src="/images/mockups/lmg/lmgweb.jpg" /> */}
+        <img src="/images/mockups/fencepro/m0.jpg" />
+        <img src="/images/mockups/fencepro/m2.jpg" />
+        <img src="/images/mockups/fencepro/m7.jpg" />
+        <img src="/images/mockups/fencepro/m6.jpg" />
+        <img src="/images/mockups/fencepro/m3.jpg" />
+        <img src="/images/mockups/fencepro/m4.jpg" />
+        <img src="/images/mockups/fencepro/m1.jpg" />
       <Footer></Footer>
     </>
   )

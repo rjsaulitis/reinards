@@ -3,8 +3,6 @@ import Image from 'next/image'
 
 import Footer from '../../components/footer/footer'
 import Navbar from '../../components/navbar/navbar'
-import Header from '../../components/header/header'
-import Container from '@/components/container'
 
 import Details from '@/components/casestudies/details'
 
@@ -20,12 +18,19 @@ export default function CaseStudy() {
 
       <Navbar float></Navbar>
 
-      <Details thumbnail="alaise-th.webp" title="Zīmola stratēģija, dizains un biznesa attīstība">
-      Alaise ir uzņēmums, kas nodarbojas ar modes dizainu, apakšveļas modelēšanu un individuāliem pasūtījumiem. Mūsu uzdevums bija izveidot vizuālu identitāti, kas atspoguļotu uzņēmuma īpašnieces personību visos klienta saskarsmes punktos, piemēram, logo, uzlīmes, produkta iepakojums, sociālie tīkli, paldies kartiņa u.c.
+      <Details thumbnail="alaise-th.webp" title="Alaise vizuālā identitāte">
+        Alaise ir uzņēmums, kas nodarbojas ar modes dizainu, apakšveļas modelēšanu un individuāliem pasūtījumiem.
+        <br/><br/>
+         Mūsu uzdevums bija izveidot vizuālu identitāti, kas atspoguļotu uzņēmuma īpašnieces personību visos klienta saskarsmes punktos, piemēram, logo, uzlīmes, produkta iepakojums, sociālie tīkli, paldies kartiņa u.c.
+         <br/><br/>
+         Papildus dizainam kopā arī izveidojām plānu, kā piesaistīt klientus un pelnīt naudu ar citiem veidiem, ne tikai šujot fiziskus produktus, bet arī piedāvājot tādas lietas kā apmācības un šuvēju kopienas abonamentu.
       </Details>
 
 
-        <img src="/images/mockups/alaise/brand.jpg" fill className='mb2 mb4-l' />
+        <img src="/images/mockups/alaise/m1.webp" />
+        <img src="/images/mockups/alaise/m0.webp" />
+        <img src="/images/mockups/alaise/m2.webp" />
+        <img src="/images/mockups/alaise/m3.webp" />
       <Footer></Footer>
     </>
   )
