@@ -28,11 +28,11 @@ export default function CaseStudy() {
           Krāsas ir diezgan konservatīvas, taču garšīgas. Logo ir ar roku zīmēts un komunicē mājīgumu. Kā arī fonts ļoti labi sader un ne tikai izskatās labi, taču ir arī funkcionāls ar tā dažādo biezumu un slīpuma opcijām.
         </Details>
 
-        <img src="/images/mockups/alutumedus/m2.jpg" />
+        <img src="/images/mockups/alutumedus/m2.webp" />
         <img src="/images/mockups/alutumedus/m1.webp" />
-        <img src="/images/mockups/alutumedus/m0.jpg" />
-        <img src="/images/mockups/alutumedus/m3.jpg" />
-        <img src="/images/mockups/alutumedus/m4.jpg" />
+        <img src="/images/mockups/alutumedus/m0.webp" />
+        <img src="/images/mockups/alutumedus/m3.webp" />
+        <img src="/images/mockups/alutumedus/m4.webp" />
       
       <Footer></Footer>
     </>

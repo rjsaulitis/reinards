@@ -24,9 +24,9 @@ export default function CaseStudy() {
           Viens no lielākajiem uzdevumiem bija izstrādāt digitālu produktu katalogu, vienkāršai pārlūkošanai ar bildēm, krāsu toņiem un instrukcijām produkta lietošanā.
         </Details>
       
-        <img src="/images/mockups/chalete/m2.jpg" />
-        <img src="/images/mockups/chalete/m0.jpg" />
-        <img src="/images/mockups/chalete/m1.jpg" />
+        <img src="/images/mockups/chalete/m2.webp" />
+        <img src="/images/mockups/chalete/m0.webp" />
+        <img src="/images/mockups/chalete/m1.webp" />
       <Footer></Footer>
     </>
   )

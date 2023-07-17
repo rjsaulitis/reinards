@@ -26,13 +26,13 @@ export default function CaseStudy() {
         Projekts tika uzsākts ar klienta iesniegtu logo ideju, taču drīz izrādījās, ka tieši tāds jau tiek izmantots citur. Vēlējāmies paturēt sākotnējo ideju par sešstūri un iekļaut kompānijas iniciāļus - tā arī tapa pašreizējā logo ideja.
       </Details>
 
-        <img src="/images/mockups/fencepro/m0.jpg" />
-        <img src="/images/mockups/fencepro/m2.jpg" />
-        <img src="/images/mockups/fencepro/m7.jpg" />
-        <img src="/images/mockups/fencepro/m6.jpg" />
-        <img src="/images/mockups/fencepro/m3.jpg" />
-        <img src="/images/mockups/fencepro/m4.jpg" />
-        <img src="/images/mockups/fencepro/m1.jpg" />
+        <img src="/images/mockups/fencepro/m0.webp" />
+        <img src="/images/mockups/fencepro/m2.webp" />
+        <img src="/images/mockups/fencepro/m7.webp" />
+        <img src="/images/mockups/fencepro/m6.webp" />
+        <img src="/images/mockups/fencepro/m3.webp" />
+        <img src="/images/mockups/fencepro/m4.webp" />
+        <img src="/images/mockups/fencepro/m1.webp" />
       <Footer></Footer>
     </>
   )
