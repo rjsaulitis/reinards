@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import Footer from '../components/footer/footer'
-import CaseStudies from '../components/casestudies/casestudies'
-import Navbar from '../components/navbar/navbar'
 import Header from '../components/header/header'
 
 export default function Home() {
