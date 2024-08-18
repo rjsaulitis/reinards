@@ -1,0 +1,20 @@
+.cta {
+    background-image: linear-gradient(to right, rgba(106,160,75,1), rgba(151, 195, 100, 1));
+    display: block;
+    border-radius: 2px;
+    max-width: 250px;
+    font-weight: bold;
+    color: rgba(9,45,40,1);
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    @media screen and (min-width: 960px) {
+        margin: unset;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1.2);
+    }
+}

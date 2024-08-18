@@ -28,17 +28,18 @@
   src: url('/fonts/Satoshi-Black.ttf');
 }
 
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
 $font-main: SatoshiRegular;
-$font-accent: Montserrat;
-$font-body: Arial, sans-serif;
+$font-body: SatoshiRegular, Arial, sans-serif;
 
-.f-accent {
-  font-family: $font-accent;
+.uni {
+  font-family: "UnifrakturMaguntia", SatoshiRegular, Arial;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.black {
-  font-family: SatoshiBlack;
-}
+$font-accent: "UnifrakturMaguntia";
 
 body {
   background-color: black;
@@ -46,40 +47,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, label{
-  color: $color-headline;
   font-family: SatoshiBold;
   line-height: 0.9;
   font-weight: bold;
 }
 
-h2 {
-  font-size: 2.2rem;
-  font-weight: bold;
-}
-
-input, textarea {
-  font-family: $font-main;
-  line-height: 0.9;
-  font-weight: normal;
-}
-
-button {
-  font-family: $font-main;
-  text-transform: uppercase;
+.f-accent {
+  font-family: $font-accent;
 }
 
 p, a, span, img {
-  color: $color-text;
   font-family: $font-main;
 }
 
 a {
   text-decoration: none;
-}
-
-.header-icon {
-  width: 0.8rem;
-  height: auto;
 }
 
 body, html {
@@ -89,64 +71,6 @@ body, html {
 
 button {
   cursor: pointer;
-}
-
-// Main container element
-.rscont {
-  display: flex;
-  // justify-content: center;
-  width: 75%;
-  margin: auto;
-  // border: 1px solid red;
-}
-
-.rscont--extended {
-  display: flex;
-  // justify-content: center;
-  width: 80%;
-  margin: auto;
-  // border: 1px solid red;
-}
-
-.rscont--small {
-  display: flex;
-  // justify-content: center;
-  width: 75%;
-  margin: auto;
-  // border: 1px solid red;
-}
-
-#bglines {
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  opacity: 0.2;
-}
-
-// @media screen and (min-width: 720px) {
-//   body {
-//     width: 70%;
-//     margin: auto;
-//   }
-// }
-
-@media screen and (max-width: 1280px) {
-  .rscont, .rscont--extended {
-    display: flex;
-    // justify-content: center;
-    width: 95%;
-    margin: auto;
-    // border: 1px solid red;
-  }
-
-  .rscont--small {
-    display: flex;
-    // justify-content: center;
-    width: 88%;
-    margin: auto;
-    // border: 1px solid red;
-  }
 }
 
 .hidden {
@@ -160,207 +84,95 @@ body {
   position: relative;
 }
 
-
-.hollow-link--white {
-  color: white;
-  text-transform: uppercase;
-  border: 1px solid white;
-  transition: 0.25s all ease;
-  padding: 1rem 2rem;
-
-  &:hover{
-      background-color: white;
-      color: black;
-  }
-}
-
-.f0 {
-  font-size: 16vw;
-  text-align: center;
-  
-  @media screen and (min-width: 1280px) {
-    font-size: 10vw;
-  }
-}
-
-
-
 .margin-auto {
   margin: auto;
-}
-
-.index-header {
-  .name_title {
-    margin-top: 2vw;
-    margin-bottom: 8vw;
-    font-size: 16vw;
-    font-weight: 900;
-    color: $color-headline;
-
-    @media screen and (min-width: 960px) {
-      font-size: 6vw;
-      margin-bottom: 4vw;
-    }
-
-    @media screen and (min-width: 1024px) {
-      font-size: 7vw;
-      margin-bottom: 4vw;
-    }
-  }
-
-  .header-spacer {
-    margin-bottom: 20vw;
-
-    h1 {
-      color: $color-text;
-    }
-  }
-
-  @media screen and (min-width: 960px) {
-    .header-spacer {
-      padding-top: 0vw;
-      margin-bottom: 10vw;
-    }
-  }
-
-  .portrait {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: fixed;
-    bottom: 0vw;
-    right: -20vw;
-    z-index: -1;
-    width: 150vw;
-    opacity: 0.2;
-    transform: scale(1.4);
-  }
-
-  @media screen and (min-width: 960px) {
-    .portrait {
-      top: -17vw;
-      left: -20vw;
-      width: 75vw;
-      height: auto;
-      transform: scaleX(-1);
-      opacity: 0.15;
-      position: absolute;
-      bottom: unset;
-    }
-  }
-
-}
-
-.subtitle {
-  font-family: SatoshiLight;
-  color: $color-text;
-  font-weight: 200;
-  letter-spacing: 0.5px;
-}
-
-.bio_preview, .bio_more {
-  font-family: SatoshiRegular;
-  font-weight: 200;
-  letter-spacing: 0.5px;
-  font-size: 20px;
-  // width: 0%;
-
-  button {
-    border: 0;
-    outline: 0;
-    background-color: transparent;
-    text-transform: none;
-    font-family: SatoshiBold;
-    transition: all 0.25s ease;
-    padding-left: 0px;
-
-    &:hover {
-      color: #0053FF;
-      padding-left: 2px;
-    }
-  }
-}
-
-.bio_more {
-  display: none;
-}
-
-.usp {
-  ol {
-    margin: 0;
-    padding-left: 6vw;
-    padding-right: 10px;
-
-    @media screen and (min-width: 720px) {
-      padding-left: 2.5vw;
-    }
-
-
-    li {
-      margin-bottom: 0.9rem;
-      font-size: 4.5vw;
-      font-family: SatoshiBold;
-      color: $color-text;
-      
-      @media screen and (min-width: 720px) {
-        font-size: 2vw;
-      }
-
-      @media screen and (min-width: 1024px) {
-        font-size: 1.4vw;
-      }
-      
-      p {
-        color: $color-text;
-        margin: 0;
-        padding: 0;
-        font-family: SatoshiLight;
-      }
-    }
-
-  }
-}
-
-.cta {
-  padding: 0.7rem 1.5rem;
-  color: rgb(0, 0, 0);
-  background-color: $accent-2;
-  transition: all 0.25s ease;
-  font-weight: 5600;
-  font-family: SatoshiBold;
-  border: 1px solid transparent;
-  cursor: pointer;
-  border-radius: 50px;
-  font-size: 3.4vw;
-
-  &:hover {
-      // padding-left: 30px;
-      // padding-right: 30px;
-      background-color: black;
-      border: 1px solid white;
-      color: white;
-      box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
-  }
-
-
-  @media screen and (min-width: 720px) {
-    font-size: 2vw;
-  }
-
-  @media screen and (min-width: 960px) {
-    font-size: 1.2vw;
-  }
-}
-
-.accent {
-  color: #004AE4;
-}
-
-.bold {
-  font-family: SatoshiBold;
 }
 
 img {
   display: inherit;
   line-height: 0;
+}
+
+// ==============================================================
+
+#about {
+  background-color: $gray;
+}
+
+#landing {
+  position: relative;
+  h1 {
+    color: $white;
+    font-family: $font-accent;
+    font-size: 18vw;
+    font-weight: normal;
+  }
+  p{
+    color: $gray2;
+    font-size: 4vw;
+  }
+
+  @media screen and (min-width: 960px) {
+    h1 {
+      font-size: 7vw;
+    }
+    p{
+      font-size: 1.6vw;
+    }
+  }
+}
+
+.portrait {
+  $portrait-mobile: 1.2;
+  z-index: -1;
+  bottom: 0vw;
+  right: -35vw;
+  width: 100vw;
+  height: auto;
+  transform: scaleX(calc($portrait-mobile * -1)) scaleY($portrait-mobile);
+  opacity: 0.5;
+  position: absolute;
+}
+
+@media screen and (min-width: 960px) {
+  .portrait {
+    top: -25vw;
+    right: -10vw;
+    width: 75vw;
+    height: auto;
+    transform: scaleX(-0.6) scaleY(0.6);
+    opacity: 0.5;
+    position: absolute;
+    bottom: unset;
+  }
+}
+
+.footer-lines-left {
+  position: absolute;
+  width: 30vw;
+  left: 0;
+  bottom: 0;
+}
+
+.footer-lines-right-top {
+  position: absolute;
+  width: 28vw;
+  right: -5vw;
+  top: 0;
+}
+
+.footer-lines-right-bottom {
+  position: absolute;
+  width: 15vw;
+  right: -1vw;
+  bottom: 0;
+}
+
+.social-links-img {
+  max-width: 20px;
+  width: 20px ;
+}
+
+.cta {
+  font-family: SatoshiBold;
 }
