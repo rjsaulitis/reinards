@@ -39,7 +39,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* <img className='review' src='/images/perfection.png'/> */}
+      <img className='review' src='/images/perf3.jpg'/>
       <img className='portfolio dn db-ns' src='/images/work.jpg'/>
       <img className='portfolio dn-ns' src='/images/work-mobile.jpg'/>
 
