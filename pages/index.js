@@ -22,7 +22,7 @@ export default function Home() {
             <h1 className='tl-l f1 f0 mv1 pv0'>Reinards</h1>
             <p className='tl-l mv1 pb4'>Shopify Copywriting Specialist</p>
 
-            <CTA href="https://google.com">BOOK A MEETING</CTA>
+            <CTA url="https://calendly.com/rjsaulitis/coffee">BOOK A MEETING</CTA>
           </div>
           <img className='portrait' src='/images/portrait.jpg'/>
       </div>
@@ -38,6 +38,10 @@ export default function Home() {
         What sets me apart is my belief in connecting with people, not just pushing one's product to them. I strive to create authentic connections that foster brand loyalty and compounding long-term gains. I’m a deeply creative person and always push myself to deliver better, more resonant copy.
         </p>
       </div>
+
+      {/* <img className='review' src='/images/perfection.png'/> */}
+      <img className='portfolio dn db-ns' src='/images/work.jpg'/>
+      <img className='portfolio dn-ns' src='/images/work-mobile.jpg'/>
 
 
       <Footer></Footer> 
