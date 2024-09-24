@@ -12,7 +12,7 @@ export default function Footer() {
         <div className='w-100 flex flex-column items-center justify-center tc'>
             <h2 className="f2 c-white">Let Me Sell Your Product!</h2>
 
-            <CTA url="https://calendly.com/rjsaulitis/coffee">BOOK A MEETING</CTA>
+            <CTA url="https://calendly.com/rjsaulitis/coffee">FREE CONSULTATION</CTA>
           <div className="pt4">
             <a className="social-links pr2" rel="noopener noreferrer" href="http://instagram.com/rjsaulitis/" title="Instagram"><img title="Instagram" className="social-links-img" src="/images/instagram2.svg"/></a>
             <a className="social-links pr2" rel="noopener noreferrer" href="https://www.linkedin.com/in/rjsaulitis/" title="LinkedIn"><img title="LinkedIn" className="social-links-img" src="/images/linkedin.svg"/></a>
@@ -24,8 +24,8 @@ export default function Footer() {
       </div>
       {/* <p className="subtitle c-white o-20 tc">Copyright © Reinards Jānis Saulītis {new Date().getFullYear()}</p> */}
       <div className="flex flex-column-reverse flex-row-l ph4">
-        <img className='footer-lines-left' src='/images/line1.png'/>
-        <img className='footer-lines-right-top' src='/images/line22.png'/>
+        <img className='footer-lines-left' src='/images/webp/line1.webp'/>
+        <img className='footer-lines-right-top' src='/images/webp/line22.webp'/>
         {/* <img className='footer-lines-right-bottom' src='/images/line3.png'/> */}
         
         <div className="w-50-l">

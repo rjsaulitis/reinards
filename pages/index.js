@@ -17,14 +17,14 @@ export default function Home() {
         <meta name="og:description" content="Izveido identitāti, kas komplimentēs Tava uzņēmuma personību, iedos odziņu, izcels konkurentu vidū un liks justies pārliecinātam, ka klienti Tevi redz pašā labākajā gaismā!"/>         */}
       </Head>
 
-      <div id="landing" className='ph3 ph7-l pv6 pv7-l tc'>
+      <div id="landing" className='ph3 ph7-l pv6 pv7-l tc tl-l'>
           <div className='landing-details pv5 pv0-l'>
             <h1 className='tl-l f1 f0 mv1 pv0'>Reinards</h1>
             <p className='tl-l mv1 pb4'>Shopify Copywriting Specialist</p>
 
             <CTA url="https://calendly.com/rjsaulitis/coffee">BOOK A MEETING</CTA>
           </div>
-          <img className='portrait' src='/images/portrait.jpg'/>
+          <img className='portrait' src='/images/webp/portrait.webp'/>
       </div>
 
 
@@ -39,9 +39,11 @@ export default function Home() {
         </p>
       </div>
 
-      <img className='review' src='/images/perf3.jpg'/>
-      <img className='portfolio dn db-ns' src='/images/work.jpg'/>
-      <img className='portfolio dn-ns' src='/images/work-mobile.jpg'/>
+      <a href="http://perfectionmedia.lv" target="_blank" title="Perfection Media"><img className='review dn db-ns' src='/images/webp/perfection-en.webp'/></a>
+      <a href="http://perfectionmedia.lv" target="_blank" title="Perfection Media"><img className='review dn-ns' src='/images/webp/perfection-mobile-en.webp'/></a>
+
+      <img className='portfolio dn db-ns' src='/images/webp/work.webp'/>
+      <img className='portfolio dn-ns' src='/images/webp/work-mobile.webp'/>
 
 
       <Footer></Footer> 
