@@ -103,23 +103,42 @@ img {
   position: relative;
   h1 {
     color: $white;
-    font-family: $font-accent;
-    font-size: 18vw;
+    font-family: SatoshiBold;
+    font-size: 10vw;
     font-weight: normal;
+    line-height: 1.1;
   }
   p{
     color: $gray2;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    width: 85%;
+    margin: auto;
+  }
+
+  .landing-proof {
+    max-width: 15vw;
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media screen and (min-width: 960px) {
     h1 {
-      font-size: 7vw;
+      font-size: 4vw;
     }
     p{
       font-size: 1.6vw;
+      margin: unset;
+      width: 60%;
+    }
+
+    .landing-proof {
+      margin-left: unset;
+      margin-right: unset;
     }
   }
+
+  
 }
 
 .portrait {
@@ -175,4 +194,8 @@ img {
 
 .cta {
   font-family: SatoshiBold;
+}
+
+.services {
+  background-color: #C4E0AA;
 }
