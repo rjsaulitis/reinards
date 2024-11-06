@@ -4,7 +4,28 @@
     border-radius: 2px;
     // max-width: 230px;
     font-weight: bold;
-    color: rgba(9,45,40,1);
+    color: black;
+    margin: auto;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    @media screen and (min-width: 960px) {
+        margin: unset;
+    }
+
+    &:hover {
+        transform: scale(1.05);
+        filter: brightness(1.2);
+    }
+}
+
+.cta_inverse {
+    background-image: linear-gradient(to right, rgba(106,160,75,1), rgba(151, 195, 100, 1));
+    display: inline-block;
+    border-radius: 2px;
+    // max-width: 230px;
+    font-weight: bold;
+    color: white;
     margin: auto;
     cursor: pointer;
     transition: all 0.5s ease;

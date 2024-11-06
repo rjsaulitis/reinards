@@ -10,9 +10,9 @@ export default function Footer() {
 
       <div className="ph4 ph6-l flex pv4">
         <div className='w-100 flex flex-column items-center justify-center tc'>
-            <h2 className="f2 c-white">Let Me Sell Your Product!</h2>
+            <h2 className="f2 c-white">Want copy that converts?</h2>
 
-            <CTA url="https://calendly.com/rjsaulitis/coffee">FREE CONSULTATION</CTA>
+            <CTA url="https://calendly.com/rjsaulitis/coffee">Book a Free Call</CTA>
           <div className="pt4">
             <a className="social-links pr2" rel="noopener noreferrer" href="http://instagram.com/rjsaulitis/" title="Instagram"><img title="Instagram" className="social-links-img" src="/images/instagram2.svg"/></a>
             <a className="social-links pr2" rel="noopener noreferrer" href="https://www.linkedin.com/in/rjsaulitis/" title="LinkedIn"><img title="LinkedIn" className="social-links-img" src="/images/linkedin.svg"/></a>
