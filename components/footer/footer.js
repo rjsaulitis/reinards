@@ -13,13 +13,10 @@ export default function Footer() {
             <h2 className="f2 c-white">Want copy that converts?</h2>
 
             <CTA url="https://calendly.com/rjsaulitis/coffee">Book a Free Call</CTA>
-          <div className="pt4">
-            <a className="social-links pr2" rel="noopener noreferrer" href="http://instagram.com/rjsaulitis/" title="Instagram"><img title="Instagram" className="social-links-img" src="/images/instagram2.svg"/></a>
-            <a className="social-links pr2" rel="noopener noreferrer" href="https://www.linkedin.com/in/rjsaulitis/" title="LinkedIn"><img title="LinkedIn" className="social-links-img" src="/images/linkedin.svg"/></a>
-            {/* <a className="social-links pr2" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100090777417777" title="Facebook"><img title="Facebook" className="social-links-img" src="/images/facebook2.svg"/></a> */}
-          </div>
-          <br></br>
-          <span className="white">reinardssaulitis@gmail.com</span>
+          // <div className="pt4">
+          //   <a className="social-links pr2" rel="noopener noreferrer" href="http://instagram.com/rjsaulitis/" title="Instagram"><img title="Instagram" className="social-links-img" src="/images/instagram2.svg"/></a>
+          //   <a className="social-links pr2" rel="noopener noreferrer" href="https://www.linkedin.com/in/rjsaulitis/" title="LinkedIn"><img title="LinkedIn" className="social-links-img" src="/images/linkedin.svg"/></a>
+          // </div>
         </div>
       </div>
       {/* <p className="subtitle c-white o-20 tc">Copyright © Reinards Jānis Saulītis {new Date().getFullYear()}</p> */}
