@@ -70,8 +70,10 @@ main {
    =============================== */
 h1 {
   font-size: clamp(24px, 3vw, 30px);
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 6px;
+  font-family: "Playfair Display", Georgia, serif;
+  /* text-transform: uppercase; */
 }
 
 h2 {
